@@ -10,3 +10,4 @@
 - Roni - Corona
 - HauBi, HauBa - Hauptbahnhof
 - TriviPu - Trivial Pursuit
+- Thorsten "Digitalltourette" Schwesig
