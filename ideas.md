@@ -13,4 +13,4 @@
 - Thorsten "Digitalltourette" Schwesig
 - Fliege in WC
   - Spinne
-  - an unsinnige Stelle kleben)
+  - an unsinnige Stelle kleben
