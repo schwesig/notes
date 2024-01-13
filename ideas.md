@@ -11,3 +11,6 @@
 - HauBi, HauBa - Hauptbahnhof
 - TriviPu - Trivial Pursuit
 - Thorsten "Digitalltourette" Schwesig
+- Fliege in WC
+  - Spinne
+  - an unsinnige Stelle kleben)
