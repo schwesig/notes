@@ -14,3 +14,12 @@
 - Fliege in WC
   - Spinne
   - an unsinnige Stelle kleben
+
+# Podcasts
+
+## Best of Podcasts
+
+## Best of Episodes
+- https://overcast.fm/+dnUhHHav0
+
+## Best of Minutes
