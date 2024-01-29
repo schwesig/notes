@@ -1,0 +1,7 @@
+- [ ] water
+- [ ] sticker
+- [ ] tools
+- [ ] microphones
+- [ ] usb sticks
+- [ ] camera
+- [ ] 
