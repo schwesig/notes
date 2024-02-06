@@ -13,7 +13,6 @@
 - Habeck Kinderbuch, Reagan Schauspieler
 - Aussagen zu Demos dann wieder egal
 - Mythen vs Jahreszahlen vs Storytelling
-- Demo ja oder nein, dann wieder egal
 
 ## Unsorted Grabbed
 - MiPa - Mittagspause
