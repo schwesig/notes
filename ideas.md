@@ -15,6 +15,7 @@
 - Habeck Kinderbuch, Reagan Schauspieler
 - Aussagen zu Demos dann wieder egal
 - Mythen vs Jahreszahlen vs Storytelling
+- diagramme mit [google charts](https://developers.google.com/chart/interactive/docs/gallery) und [https://d3js.org/](https://observablehq.com/@d3/gallery?utm_source=d3js-org&utm_medium=hero&utm_campaign=try-observable)
 
 ## Unsorted Grabbed
 - MiPa - Mittagspause
