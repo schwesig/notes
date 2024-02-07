@@ -1,0 +1,1 @@
+- [Open Language Model: OLMo, A State-of-the-Art, Truly Open LLM and Framework](https://allenai.org/olmo)
