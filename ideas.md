@@ -18,7 +18,7 @@
 - diagramme mit [google charts](https://developers.google.com/chart/interactive/docs/gallery) und [https://d3js.org/](https://observablehq.com/@d3/gallery?utm_source=d3js-org&utm_medium=hero&utm_campaign=try-observable)
 - Poopbags enclose usable biomass into non usable plastic trash
 - Mütter sollten dankbar sein für LGBTQAI+ Söhne
-- 
+- Parkinson und Ticks fielen früher weniger auf wegen Schaukestuhl ubd Webmaschine
 
 
 ## Unsorted Grabbed
