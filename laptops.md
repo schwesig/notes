@@ -7,7 +7,7 @@
 | CPU type          | i5-?       | i5-?       |          | i7-             |                 | i5-3320M   | i5-3230M                         | i7-3520M                                    |          |           |
 | CPU speed         |            |            |          |                 |                 | 2.60GHz    | 2.60GHz x4                       | 2.90 2cores                                 |          |           |
 | RAM               |            |            |          |                 |                 | 4GB        | 8GB                              | 16GB                                        |          |           |
-| GPU               |            |            |          |                 |                 |            | Intel HD Graphics 4000 (IVB GT2) | - Intel HD Graphics 4000 - NVIDIA NVS 5200M |          |           |
+| GPU               |            |            |          |                 |                 |            | Intel HD Graphics 4000 (IVB GT2) | Intel HD Graphics 4000, NVIDIA NVS 5200M    |          |           |
 | Drive1            |            |            |          |                 |                 |            | 240GB                            | 120GB INTENSO SSD                           |          |           |
 | Drive2            |            |            |          |                 |                 |            |                                  |                                             |          |           |
 | Connections Data  |            |            |          |                 |                 |            |                                  |                                             |          |           |
