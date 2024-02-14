@@ -1,9 +1,9 @@
 |                   | Laptop 1   | Laptop 2   | Laptop 3 | Laptop 4        | Laptop 5        | Laptop 6   | Laptop 7                         | Laptop 8                                    | Laptop 9 | Laptop 10 |
 |-------------------|------------|------------|----------|-----------------|-----------------|------------|----------------------------------|---------------------------------------------|----------|-----------|
-| Model             | X230       | L450       |          | X1 Carbon Gen 2 | X1 Carbon Gen ? | T430s      | T430                             | T430s                                       |          |           |
+| Model             | X230       | L450       | X1 Carbon Gen ? | X1 Carbon Gen 2 | X1 Carbon Gen ? | T430s      | T430                             | T430s                                       |          |           |
 | Year              |            |            |          |                 |                 |            |                                  |                                             |          |           |
-| Screensize        | 13?        |            |          | 14 inch         | 14 inch         | 14 inch    | 14 inch                          | 14 inch                                     |          |           |
-| CPU brand         | Intel Core | Intel Core |          | Intel Core      | Intel Core      | Intel Core | Intel Core                       | Intel Core                                  |          |           |
+| Screensize        | 13?        |            | 14 inch         | 14 inch         | 14 inch         | 14 inch    | 14 inch                          | 14 inch                                     |          |           |
+| CPU brand         | Intel Core | Intel Core | Intel Core      | Intel Core      | Intel Core      | Intel Core | Intel Core                       | Intel Core                                  |          |           |
 | CPU type          | i5-?       | i5-?       |          | i7-             |                 | i5-3320M   | i5-3230M                         | i7-3520M                                    |          |           |
 | CPU speed         |            |            |          |                 |                 | 2.60GHz    | 2.60GHz x4                       | 2.90 2cores                                 |          |           |
 | RAM               |            |            |          |                 |                 | 4GB        | 8GB                              | 16GB                                        |          |           |
