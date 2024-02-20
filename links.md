@@ -1,2 +1,6 @@
 - [Open Language Model: OLMo, A State-of-the-Art, Truly Open LLM and Framework](https://allenai.org/olmo)
 - https://command-not-found.com/
+- maps
+  - https://www.maptiler.com/
+  - https://www.mapbox.com/
+  - https://maputnik.github.io/editor/#0.96/0/0
