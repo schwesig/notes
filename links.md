@@ -4,3 +4,6 @@
   - https://www.maptiler.com/
   - https://www.mapbox.com/
   - https://maputnik.github.io/editor/#0.96/0/0
+- [Manage vault configuration #388](https://github.com/OCP-on-NERC/nerc-ocp-config/pull/388)
+  - [yq - a lightweight and portable command-line YAML, JSON and XML processor](https://github.com/mikefarah/yq)
+  - [Bank-Vaults](https://github.com/bank-vaults/bank-vaults)
