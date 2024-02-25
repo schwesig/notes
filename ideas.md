@@ -19,7 +19,9 @@
 - [Poopbags enclose usable biomass into non usable plastic trash](https://www.dogs4friends.de/gassibeutel/hundekotbeutel/bio-gassibeutel-auf-der-rolle-biologisch-abbaubar-von-sustainable-people?gad_source=1&gclid=EAIaIQobChMIqKPwquulhAMV75eDBx0BtQAOEAAYASAAEgJaFvD_BwE)
 - Mütter sollten dankbar sein für LGBTQAI+ Söhne
 - Parkinson und Ticks fielen früher weniger auf wegen Schaukestuhl ubd Webmaschine
-
+- Inside
+  - Beweis innere Ethik: komplizierte Regeln um der inneren Ethik zu entkommen; zBsp Töten erlaubt wenn Ungläubig
+  - Klasse und Hautfarbe: Stände wahren da Angst dies aus eigener Kraft nicht mehr zu erreichen
 
 ## Unsorted Grabbed
 - MiPa - Mittagspause
