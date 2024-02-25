@@ -22,6 +22,7 @@
 - Inside
   - Beweis innere Ethik: komplizierte Regeln um der inneren Ethik zu entkommen; zBsp Töten erlaubt wenn Ungläubig
   - Klasse und Hautfarbe: Stände wahren da Angst dies aus eigener Kraft nicht mehr zu erreichen
+- HomeOffice: Firmen verpassen nicht nur die richtigen Kommunikationstools zur Verfügung zu stellen, sondern auch Knowledge Sharing zu erzwingen/etablieren.
 
 ## Unsorted Grabbed
 - MiPa - Mittagspause
