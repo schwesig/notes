@@ -1,7 +1,7 @@
 # Paintball
 
-- Thorsten
-- Ralf W.
+1. Thorsten
+1. Ralf W.
 - Jessi
 - Sandra
 - Lars
