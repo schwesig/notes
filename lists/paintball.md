@@ -2,9 +2,9 @@
 
 1. Thorsten
 1. Ralf W.
-- Jessi
-- Sandra
-- Lars
-- Tobi
-- Uli P.
-- Jens ?
+1. Jessi
+1. Sandra
+1. Lars
+1. Tobi
+1. Uli P.
+1. Jens ?
