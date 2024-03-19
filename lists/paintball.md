@@ -12,5 +12,5 @@
 1. Hendrik
 
 
-- [Mönchengladbach](https://playpaintball.de/lostcity)
-- [Mechernich](https://playpaintball.de/jungle)
+- [Mönchengladbach](https://playpaintball.de/lostcity) 5 Felder
+- [Mechernich](https://playpaintball.de/jungle) 3 Felder
