@@ -52,3 +52,6 @@ Anziehen (man kann und wird schmutzig werden)
 - feste Kleidung (je dicker desto weniger blaue Flecken)
   - ich habe immer Jeans und Hoodie angehabt
 - dann so einen Maleranzug drueber. Kann man vor ort fuer ca 6 kaufen, oder ich besorge fuer alle im Laden.
+
+- [ ] Maleranzug vor Ort
+- [ ] Maleranzug gesammelt vorher
