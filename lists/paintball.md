@@ -1,5 +1,6 @@
 # Paintball
 
+## Teilnehmer
 - [x] 1. Thorsten
 - [x] 2. Ralf W.
 - [x] 3. Jessi
@@ -12,14 +13,16 @@
 - [ ] 10. Jens ?
 - [ ] 11. Hendrik
 
+## Orte zur Auswahl
+- [ ] [Mönchengladbach](https://playpaintball.de/lostcity) 5 Felder
+- [ ] [Mechernich](https://playpaintball.de/jungle) 3 Felder
 
-- [Mönchengladbach](https://playpaintball.de/lostcity) 5 Felder
-- [Mechernich](https://playpaintball.de/jungle) 3 Felder
-
+## Zeiten zur Auswahl
 es sind immer 4 Stunden Timelslots zu buchen
-- 10 bis 14 Uhr
-- 15 bis 19 Uhr
+- [ ] 10 bis 14 Uhr
+- [ ] 15 bis 19 Uhr
 
+## Kosten
 4 stunden kosten 50EUR pro Person
 - enthalten sind dabei
 - 4 Stunden
@@ -43,6 +46,7 @@ Waere also etwa
 - ===
 - ca 70 EUR dann pro person
 
+## Kleidung
 Anziehen (man kann und wird schmutzig werden)
 - feste Schuhe (ist draussen Gelaende)
 - feste Kleidung (je dicker desto weniger blaue Flecken)
