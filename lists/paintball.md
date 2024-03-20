@@ -1,14 +1,14 @@
 # Paintball
 
-- [ ] 1. Thorsten
-- [ ] 2. Ralf W.
-- [ ] 3. Jessi
-- [ ] 4. Sandra
-- [ ] 5. Lars
-- [ ] 6. Katha
+- [x] 1. Thorsten
+- [x] 2. Ralf W.
+- [x] 3. Jessi
+- [x] 4. Sandra
+- [x] 5. Lars
+- [x] 6. Katha
 - [ ] 7. Tobi
-- [ ] 8. Uli P.
-- [ ] 9. Stephanie P.
+- [x] 8. Uli P.
+- [x] 9. Stephanie P.
 - [ ] 10. Jens ?
 - [ ] 11. Hendrik
 
