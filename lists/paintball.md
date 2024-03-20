@@ -14,8 +14,8 @@
 - [ ] 11. Hendrik
 
 ## Orte zur Auswahl
-- [ ] [Mönchengladbach](https://playpaintball.de/lostcity) 5 Felder
-- [ ] [Mechernich](https://playpaintball.de/jungle) 3 Felder
+- [ ] [Mönchengladbach - Lost City](https://playpaintball.de/lostcity) 5 Felder
+- [ ] [Mechernich - Jungle](https://playpaintball.de/jungle) 3 Felder
 
 ## Zeiten zur Auswahl
 es sind immer 4 Stunden Timelslots zu buchen
