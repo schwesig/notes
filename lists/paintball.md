@@ -1,16 +1,16 @@
 # Paintball
 
-1. Thorsten
-1. Ralf W.
-1. Jessi
-1. Sandra
-1. Lars
-1. Katha
-1. Tobi
-1. Uli P.
-1. Stephanie P.
-1. Jens ?
-1. Hendrik
+- [ ] 1. Thorsten
+- [ ] 2. Ralf W.
+- [ ] 3. Jessi
+- [ ] 4. Sandra
+- [ ] 5. Lars
+- [ ] 6. Katha
+- [ ] 7. Tobi
+- [ ] 8. Uli P.
+- [ ] 9. Stephanie P.
+- [ ] 10. Jens ?
+- [ ] 11. Hendrik
 
 
 - [Mönchengladbach](https://playpaintball.de/lostcity) 5 Felder
