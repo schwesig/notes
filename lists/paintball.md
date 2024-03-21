@@ -10,8 +10,8 @@
 - [ ] 7. Tobi
 - [x] 8. Uli P.
 - [x] 9. Stephanie P.
-- [ ] 10. Jens ?
-- [ ] 11. Hendrik
+- [ ] 10. Hendrik
+- [ ] ~11. Jens~
 
 ## Orte zur Auswahl
 - [ ] [Mönchengladbach - Lost City](https://playpaintball.de/lostcity) 5 Felder
