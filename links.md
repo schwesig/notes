@@ -8,3 +8,4 @@
   - [yq - a lightweight and portable command-line YAML, JSON and XML processor](https://github.com/mikefarah/yq)
   - [Bank-Vaults](https://github.com/bank-vaults/bank-vaults)
 - [sre tiny-tasks](https://gist.github.com/ikurni)
+- [Nvidia GPU exporter for prometheus, using nvidia-smi binary to gather metrics.](https://github.com/utkuozdemir/nvidia_gpu_exporter)
