@@ -14,13 +14,13 @@
 - [ ] ~11. Jens~
 
 ## Orte zur Auswahl
-- [ ] [Mönchengladbach - Lost City](https://playpaintball.de/lostcity) 5 Felder
-- [ ] [Mechernich - Jungle](https://playpaintball.de/jungle) 3 Felder
+- [ ] ~[Mönchengladbach - Lost City](https://playpaintball.de/lostcity) 5 Felder~
+- [x] [Mechernich - Jungle](https://playpaintball.de/jungle) 3 Felder
 
 ## Zeiten zur Auswahl
 es sind immer 4 Stunden Timelslots zu buchen
-- [ ] 10 bis 14 Uhr
-- [ ] 15 bis 19 Uhr
+- [x] 10 bis 14 Uhr
+- [ ] ~15 bis 19 Uhr~
 
 ## Kosten
 4 stunden kosten 50EUR pro Person
