@@ -17,7 +17,7 @@
 - [ ] 7. Tobi
 - [x] 8. Uli P.
 - [x] 9. Stephanie P.
-- [ ] 10. Hendrik
+- [x] 10. Hendrik
 - [ ] ~11. Jens~
 
 ## Orte zur Auswahl
