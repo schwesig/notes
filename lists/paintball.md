@@ -1,7 +1,7 @@
 # Paintball
 
 ## ToDos
-- [ ] Haftungsvereinbarung ausfuellen (link in DM)
+- [ ] Haftungsvereinbarung ausfuellen pro Spieler (link kommt noch in DM)
 - [ ] Perso oder Fuehrerschein
 - [ ] festes Schuhwerk
 - [ ] feste Klamotten die schmutzig werden duerfen
