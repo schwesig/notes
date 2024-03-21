@@ -1,5 +1,12 @@
 # Paintball
 
+## ToDos
+- [ ] Haftungsvereinbarung ausfuellen (link in DM)
+- [ ] Perso oder Fuehrerschein
+- [ ] festes Schuhwerk
+- [ ] feste Klamotten die schmutzig werden duerfen
+- [ ] Maleranzug
+
 ## Teilnehmer
 - [x] 1. Thorsten
 - [x] 2. Ralf W.
@@ -58,3 +65,19 @@ Anziehen (man kann und wird schmutzig werden)
 
 ![image](https://github.com/schwesig/notes/assets/89909507/fe294c4c-7450-4d1f-aca2-a6c8d9cdcb04)
 
+## Checkliste
+✅ Der Personalausweis oder der Führerschein muss mitgebracht werden, um teilnehmen zu dürfen.
+
+✅ Wir empfehlen festes Schuhwerk mit Profil und Kleidung, die Schmutz abbekommen darf.
+
+✅ Wir empfehlen alle Körperteile zu bedecken. Alternativ kannst du auch vor Ort Schutzausrüstung günstig ausleihen.
+
+✅ In Euskirchen darf ab 16 Jahren gespielt werden in Begleitung einer volljährigen Aufsichtsperson.
+
+⚠️ ACHTUNG: Separates U18-Formular LINK für Minderjährige beachten!!!
+
+✅ Personen unter 18 Jahren dürfen die Anlage nur in Begleitung einer volljährigen Aufsichtsperson betreten.
+
+✅ Alkohol ist vor und während des Paintballevents verboten! Nach dem Spielen könnt ihr gerne grillen und kühles Bier genießen.
+
+✅ Zuschauer sind herzlich Willkommen.
