@@ -81,3 +81,5 @@ Anziehen (man kann und wird schmutzig werden)
 ✅ Alkohol ist vor und während des Paintballevents verboten! Nach dem Spielen könnt ihr gerne grillen und kühles Bier genießen.
 
 ✅ Zuschauer sind herzlich Willkommen.
+
+---
