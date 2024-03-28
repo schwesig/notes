@@ -23,6 +23,8 @@
   - Beweis innere Ethik: komplizierte Regeln um der inneren Ethik zu entkommen; zBsp Töten erlaubt wenn Ungläubig
   - Klasse und Hautfarbe: Stände wahren da Angst dies aus eigener Kraft nicht mehr zu erreichen
 - HomeOffice: Firmen verpassen nicht nur die richtigen Kommunikationstools zur Verfügung zu stellen, sondern auch Knowledge Sharing zu erzwingen/etablieren.
+- Nur wenige koennen strategisch denken, dennoch muessen MA Jahres- oder Quartalsplanungen fuer Ihre Entwicklung/Ziele machen
+- Verteilte Bildung (YouTube) ist grossartig, aber wenn zu viele das selbe machen, ist es ineffizient/teurer
 
 ## Unsorted Grabbed
 - MiPa - Mittagspause
