@@ -27,6 +27,7 @@
 - Verteilte Bildung (YouTube) ist grossartig, aber wenn zu viele das selbe machen, ist es ineffizient/teurer
 - Kein gendern, kein Doktor
 - was wäre, Ampel erste partei die Probleme zugibt
+- gerade jetzt, wo Boomer den Grossteil des Konsums ausmachen, auf Digitalisierung setzen
 
 ## Unsorted Grabbed
 - MiPa - Mittagspause
