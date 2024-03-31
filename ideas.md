@@ -29,7 +29,8 @@
 - was wäre, Ampel erste partei die Probleme zugibt
 - gerade jetzt, wo Boomer den Grossteil des Konsums ausmachen, auf Digitalisierung setzen
 - Wenn man gerade denkt, selbstaendig zu sein und genug zu koennen um das Leben zu meistern, braucht man die wieder Hilfe um sich die Schuhe anzuziehen
-- - seit EBikes ist der Begriff Rabauke nicht mehr auf die junge Generation beschränkt
+- seit EBikes ist der Begriff Rabauke nicht mehr auf die junge Generation beschränkt
+- aelter werden laesst immer mehr Dinge aus der Jugend verschwinden. gefühlt oder real, Dinge oder Erkenntnisse. das macht Angst. FutureShock
 
 ## Unsorted Grabbed
 - MiPa - Mittagspause
