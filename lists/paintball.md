@@ -14,7 +14,7 @@
 - [x] 4. Sandra
 - [x] 5. Lars
 - [x] 6. Katha
-- [ ] 7. Tobi
+- [x] 7. Tobi
 - [x] 8. Uli P.
 - [x] 9. Stephanie P.
 - [x] 10. Hendrik
