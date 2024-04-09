@@ -10,3 +10,4 @@
 - [sre tiny-tasks](https://gist.github.com/ikurni)
 - [Nvidia GPU exporter for prometheus, using nvidia-smi binary to gather metrics.](https://github.com/utkuozdemir/nvidia_gpu_exporter)
 - https://mechanische-tastaturen.net/prebuilt-einkaufsguide/
+- https://kcli.readthedocs.io/en/latest/
