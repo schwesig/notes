@@ -1,4 +1,4 @@
-# Paintball
+look# Paintball
 
 ## ToDos
 - [ ] Haftungsvereinbarung ausfuellen pro Spieler (link kommt noch in DM)
@@ -19,7 +19,7 @@
 - [x] 9. Stephanie P.
 - [x] 10. Hendrik
 - [x] 11. Boris J.
-- [ ] 12. Markus
+- [ ] ~12. Markus~
 - [ ] ~13. Jens~
 
 ## Orte zur Auswahl
