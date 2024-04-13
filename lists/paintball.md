@@ -62,8 +62,8 @@ Anziehen (man kann und wird schmutzig werden)
   - ich habe immer Jeans und Hoodie angehabt
 - dann so einen Maleranzug drueber. Kann man vor ort fuer ca 6 kaufen, oder ich besorge fuer alle im Laden.
 
-- [ ] Maleranzug vor Ort
-- [ ] Maleranzug gesammelt vorher
+- [x] Maleranzug vor Ort/jeder selber
+- [ ] ~Maleranzug gesammelt vorher~
 
 ![image](https://github.com/schwesig/notes/assets/89909507/fe294c4c-7450-4d1f-aca2-a6c8d9cdcb04)
 
