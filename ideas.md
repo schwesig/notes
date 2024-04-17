@@ -33,7 +33,7 @@
 - aelter werden laesst immer mehr Dinge aus der Jugend verschwinden. gefühlt oder real, Dinge oder Erkenntnisse. das macht Angst. FutureShock
 - Martkeintrittsbarrieren: provozierte Fehler und kleine Baecker/Hotel Brno
 - Wieviele Pillen muss ich bei mehr als einem Partner nehmen? Oder hängt es von der Menge ab?
-- Unendliche Quelle an schwarzer Farbe in Fensterdichtungen. aber sofort unlösbar wenn Versetck verlassen.
+- Unendliche Quelle an schwarzer Farbe in Fensterdichtungen; aber sofort unlösbar wenn Versetck verlassen.
 
 ## Unsorted Grabbed
 - MiPa - Mittagspause
