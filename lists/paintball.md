@@ -15,13 +15,14 @@ look# Paintball
 - [x] 2. Ralf W.
 - [x] 3. Jessi
 - [x] 4. Sandra
-- [x] 5. Lars
-- [x] 6. Katha
-- [x] 7. Tobi
+- [x] ~5. Lars~
+- [x] ~6. Katha~
+- [x] ~7. Tobi~
 - [x] 8. Uli P.
 - [x] 9. Stephanie P.
 - [x] 10. Hendrik
 - [x] 11. Boris J.
+
 - [ ] ~12. Markus~
 - [ ] ~13. Jens~
 
