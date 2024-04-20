@@ -34,6 +34,8 @@
 - Martkeintrittsbarrieren: provozierte Fehler und kleine Baecker/Hotel Brno
 - Wieviele Pillen muss ich bei mehr als einem Partner nehmen? Oder hängt es von der Menge ab?
 - Unendliche Quelle an schwarzer Farbe in Fensterdichtungen; aber sofort unlösbar wenn Versetck verlassen.
+- wer macht will hat Angst, sich ändern zu müssen
+
 
 ## Unsorted Grabbed
 - MiPa - Mittagspause
