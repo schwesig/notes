@@ -6,6 +6,9 @@ look# Paintball
 - [ ] festes Schuhwerk
 - [ ] feste Klamotten die schmutzig werden duerfen
 - [ ] Maleranzug
+- [ ] Getränke
+- [ ] Mütze, Handschuhe
+- [ ] Decke/Wechsel Kleidung zum Schutz Autositze
 
 ## Teilnehmer
 - [x] 1. Thorsten
