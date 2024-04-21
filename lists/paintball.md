@@ -1,4 +1,12 @@
-look# Paintball
+Lessons Learned PB Jungle
+- Umkleide vorhanden
+- WC vorhanden
+- Schliessfächer vorhanden (gegen Pfand, Autoschlüssel)
+- Mütze zum besseren Kopfschutz
+- Handschuhe machen Sinn
+- Maske nicht für jede Brille optimal (Kontaktlinsen wenn möglich oder kleine Brille)
+- 8.000 Schuss für 8 Personen für 4 Stunden (250 pro Stunde, ca 100 pro Spiel)
+- 10 Minuten pro Feld, Homebase, ReSpawn Area
 
 ## ToDos
 - [ ] Haftungsvereinbarung ausfuellen pro Spieler (link kommt noch in DM)
