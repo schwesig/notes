@@ -38,6 +38,8 @@
 - Double Face Cities
   - Flagship Stores, fake rent
   - Cinnamon Instagram, stores as story, not as craftmanship
+- Schule erzwingr Konfliktfähigkeit, Home office lässt Vermeidung zu
+- Qualität der Stadtbesucher nach Corona
 
 ## Unsorted Grabbed
 - MiPa - Mittagspause
