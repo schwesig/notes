@@ -40,6 +40,7 @@
   - Cinnamon Instagram, stores as story, not as craftmanship
 - Schule erzwingr Konfliktfähigkeit, Home office lässt Vermeidung zu
 - Qualität der Stadtbesucher nach Corona
+- LLMs sind die Atomenergie der 1960er... alles ist möglich
 
 ## Unsorted Grabbed
 - MiPa - Mittagspause
