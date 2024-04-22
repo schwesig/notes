@@ -35,7 +35,9 @@
 - Wieviele Pillen muss ich bei mehr als einem Partner nehmen? Oder hängt es von der Menge ab?
 - Unendliche Quelle an schwarzer Farbe in Fensterdichtungen; aber sofort unlösbar wenn Versetck verlassen.
 - wer macht will hat Angst, sich ändern zu müssen
-
+- Double Face Cities
+  - Flagship Stores, fake rent
+  - Cinnamon Instagram, stores as story, not as craftmanship
 
 ## Unsorted Grabbed
 - MiPa - Mittagspause
