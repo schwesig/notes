@@ -41,6 +41,7 @@
 - Schule erzwingr Konfliktfähigkeit, Home office lässt Vermeidung zu
 - Qualität der Stadtbesucher nach Corona
 - LLMs sind die Atomenergie der 1960er... alles ist möglich
+- Medienschulung nicht für Kids. für 40+!
 
 ## Unsorted Grabbed
 - MiPa - Mittagspause
