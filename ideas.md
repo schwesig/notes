@@ -42,6 +42,7 @@
 - Qualität der Stadtbesucher nach Corona
 - LLMs sind die Atomenergie der 1960er... alles ist möglich
 - Medienschulung nicht für Kids. für 40+!
+- gutes tun führt oft zu mehr negativ handeln. wie steht es da um das morgendliche Joggen und tagsüber Verhalten?
 
 ## Unsorted Grabbed
 - MiPa - Mittagspause
