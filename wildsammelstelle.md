@@ -7,3 +7,9 @@
 - Heart Of Africa? Politisch inkorrekt, aber wie spielt man es auf iPhone, Switch, etc?
 - Knoblauch? Geruch als Standesseparator?
 - Gewgaw? A useless word? :-)
+- 5 Finger Themen
+  - Thumbs Up
+  - I want to Point Out/Mention
+  - F Off
+  - Relationship/Love
+  - Came too short
