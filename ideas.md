@@ -44,6 +44,9 @@
 - Medienschulung nicht für Kids. für 40+!
 - gutes tun führt oft zu mehr negativ handeln. wie steht es da um das morgendliche Joggen und tagsüber Verhalten?
 
+## Doms
+- KommentaThor
+
 ## Unsorted Grabbed
 - MiPa - Mittagspause
 - GoeGa - Goettergatte
