@@ -47,6 +47,8 @@
 
 ## Doms
 - KommentaThor
+- NavigaThor
+- DiktaThor
 
 ## Unsorted Grabbed
 - MiPa - Mittagspause
