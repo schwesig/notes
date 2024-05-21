@@ -45,6 +45,8 @@
 - gutes tun führt oft zu mehr negativ handeln. wie steht es da um das morgendliche Joggen und tagsüber Verhalten?
 - Tattos als lebenslanger Guide: that is me and my rules
 - Das Passwort zum Sonntag
+- Trinkspiel Dschungel Camp
+  - Maske fällt, Sendezeit, Panzer
 
 ## Doms
 - KommentaThor
