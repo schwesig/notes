@@ -1,4 +1,4 @@
 # Talk
 - ARM and Windows on Arm
 - What is a Big Laptop
-- ? Some details about what ?
+- Like OSPO, like Kim. why could it be important
