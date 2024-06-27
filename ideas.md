@@ -54,6 +54,8 @@
 - KommentaThor
 - NavigaThor
 - DiktaThor
+- ThorTorial
+- ToDoDo
 
 ## Unsorted Grabbed
 - MiPa - Mittagspause
