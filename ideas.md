@@ -47,8 +47,11 @@
 - Das Passwort zum Sonntag
 - Trinkspiel Dschungel Camp
   - Maske fällt, Sendezeit, Panzer
+  - be real... als Schauspieler in einem TV Format
 - Markteintrittsbarriere gilt auch für Systeme
   - add: je länger ein System existiert, desto schwieriger es von Innen zu ändern (Evolution vs Revolution)
+- produkte werden so lange besser, bis sie schlechter werden
+  - Marktwunsch vs CashCow Relaunch
 
 ## Doms
 - KommentaThor
