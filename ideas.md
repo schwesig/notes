@@ -52,6 +52,13 @@
   - add: je länger ein System existiert, desto schwieriger es von Innen zu ändern (Evolution vs Revolution)
 - produkte werden so lange besser, bis sie schlechter werden
   - Marktwunsch vs CashCow Relaunch
+- Stabilät verdeckt Probleme durch Änderung
+  - Eine gute Story kann einen schlechten Schauspieler überleben
+  - Ein langjähriges Unternehmen den Shareholder Value
+  - Ein stabiles Team eine Online Zeit
+  - Bestehende Netzwerke fehlende Konferenzen
+  - aber nicht für immer, ohne aktives Steuern
+  - wirkung und ursache liegt zu weit auseinander um einfach zu erkennen
 
 ## Doms
 - KommentaThor
