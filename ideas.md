@@ -59,12 +59,18 @@
   - Bestehende Netzwerke fehlende Konferenzen
   - aber nicht für immer, ohne aktives Steuern
   - wirkung und ursache liegt zu weit auseinander um einfach zu erkennen
+- wir bereuen, was wir nicht getan haben, nicht, was wir getan haben
+  - vielleicht liegt es daran, dass es zu jeder Pro Entscheidung mehr als eine Contra Entscheidung gibt
+- visuell vs text orientiert
+- lösung vs tool orientiert
+- 
 
 ## Doms
 - KommentaThor
 - NavigaThor
 - DiktaThor
 - ThorTorial
+- MotivaThor
 - ToDoDo
 
 ## Unsorted Grabbed
