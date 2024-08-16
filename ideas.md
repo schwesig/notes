@@ -66,7 +66,8 @@
   - lösung vs tool orientiert
 - Just a job
   - dann darf man sich über Ergebnis nicht wundern
-
+- accidential meeting
+- peergroup ranting vs fuck up nights
 ## Doms
 - KommentaThor
 - NavigaThor
