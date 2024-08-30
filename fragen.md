@@ -1,0 +1,3 @@
+- Gesinnungswähler oder Vorteilswähler?
+- Wenn Du eine Gebäude stiften würdest, würde es Deinen Namen tragen?
+- Liegen reservieren, ja oder nein? Unter welchen Bedingungen OK?
