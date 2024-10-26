@@ -32,5 +32,7 @@
 |Vinzent|--|
 |Raphael B.|--|
 |Miriam M.|--|
-||--|
+|Phong M.|--|
+|Minh TN|--|
+|Oskar A.|--|
 |--|--|
