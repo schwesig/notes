@@ -13,6 +13,14 @@
 |Felix K.|--|
 |Tim K.|--|
 |Emiran K.|--|
+|Harun A.|--|
+|Gabriel S.|--|
+|Emil|--|
+|Malte D.|--|
+|Matias|--|
+|Lucas|--|
+|Maksim|--|
+|--|--|
 |--|--|
 |--|--|
 |--|--|
