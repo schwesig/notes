@@ -20,12 +20,17 @@
 |Matias|--|
 |Lucas|--|
 |Maksim|--|
-|--|--|
-|--|--|
-|--|--|
-|--|--|
-|--|--|
-|--|--|
-|--|--|
-|--|--|
+|Michayl|--|
+|Tymofij|--|
+|Julius K.|--|
+|Antonius S.|--|
+|Benedikt J.|--|
+|Amin A.|--|
+|Alperslan|--|
+|Moussa|--|
+|Aiden|--|
+|Vinzent|--|
+|Raphael B.|--|
+|Miriam M.|--|
+||--|
 |--|--|
