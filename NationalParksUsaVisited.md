@@ -1,4 +1,4 @@
-# National Parks in the USA (West to East) by 2024
+# National Parks in the USA (West to East) by 2024 (63)
 visited by 2024
 
 ## Alaska
