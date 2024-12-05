@@ -35,14 +35,20 @@ jobs:
           import os
   
           def generate_readme(directory):
-              readme_content = "# Project Documentation\\n\\n"
-              readme_content += "## Files in This Repository\\n\\n"
-              for root, dirs, files in os.walk(directory):
-                  for file in files:
-                      file_path = os.path.relpath(os.path.join(root, file), directory)
-                      readme_content += f"- [{file}]({file_path})\\n"
-              with open(os.path.join(directory, "README.md"), "w") as readme_file:
-                  readme_file.write(readme_content)
+            readme_content = "# Project Documentation\n\n"
+            readme_content += "## Files and Folders in Root Directory\n\n"
+        
+            # List only files and folders in the root directory
+            for item in sorted(os.listdir(directory)):
+                item_path = os.path.join(directory, item)
+                if os.path.isfile(item_path):
+                    readme_content += f"- **File**: [{item}]({item})\n"
+                elif os.path.isdir(item_path):
+                    readme_content += f"- **Folder**: [{item}]({item})\n"
+        
+            # Write the README.md file
+            with open(os.path.join(directory, "README.md"), "w") as readme_file:
+                readme_file.write(readme_content)
               print("README.md generated!")
   
           generate_readme(".")
