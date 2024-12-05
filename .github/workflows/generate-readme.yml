@@ -35,7 +35,7 @@ jobs:
           import os
   
           def generate_readme(directory):
-              readme_content = "# Project Documentation\n\n"
+              readme_content = "# Content\n\n"
               readme_content += "## Files and Folders in Root Directory (Excluding Dot Files)\n\n"
           
               # Separate files and folders for proper sorting
@@ -58,6 +58,7 @@ jobs:
               # Add files and folders to the README content
               for file in files:
                   readme_content += f"- **File**: [{file}]({file})\n"
+              readme_content += "---- \n\n"
               for folder in folders:
                   readme_content += f"- **Folder**: [{folder}]({folder})\n"
           
