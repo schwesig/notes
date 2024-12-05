@@ -36,10 +36,12 @@ jobs:
   
           def generate_readme(directory):
               readme_content = "# Project Documentation\n\n"
-              readme_content += "## Files and Folders in Root Directory\n\n"
+              readme_content += "## Files and Folders in Root Directory (Excluding Dot Files)\n\n"
           
-              # List only files and folders in the root directory
+              # List only non-dot files and folders in the root directory
               for item in sorted(os.listdir(directory)):
+                  if item.startswith("."):  # Exclude dot files
+                      continue
                   item_path = os.path.join(directory, item)
                   if os.path.isfile(item_path):
                       readme_content += f"- **File**: [{item}]({item})\n"
