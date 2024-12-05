@@ -38,15 +38,28 @@ jobs:
               readme_content = "# Project Documentation\n\n"
               readme_content += "## Files and Folders in Root Directory (Excluding Dot Files)\n\n"
           
-              # List only non-dot files and folders in the root directory
-              for item in sorted(os.listdir(directory)):
+              # Separate files and folders for proper sorting
+              files = []
+              folders = []
+          
+              for item in os.listdir(directory):
                   if item.startswith("."):  # Exclude dot files
                       continue
                   item_path = os.path.join(directory, item)
                   if os.path.isfile(item_path):
-                      readme_content += f"- **File**: [{item}]({item})\n"
+                      files.append(item)
                   elif os.path.isdir(item_path):
-                      readme_content += f"- **Folder**: [{item}]({item})\n"
+                      folders.append(item)
+          
+              # Sort files and folders alphabetically
+              files.sort()
+              folders.sort()
+          
+              # Add files and folders to the README content
+              for file in files:
+                  readme_content += f"- **File**: [{file}]({file})\n"
+              for folder in folders:
+                  readme_content += f"- **Folder**: [{folder}]({folder})\n"
           
               # Write the README.md file
               with open(os.path.join(directory, "README.md"), "w") as readme_file:
@@ -56,6 +69,7 @@ jobs:
           
           # Specify the directory (current directory in this example)
           generate_readme(".")
+          
           EOF
 
       - name: Commit and Push Changes
