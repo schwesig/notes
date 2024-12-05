@@ -52,8 +52,8 @@ jobs:
                       folders.append(item)
           
               # Sort files and folders alphabetically
-              files.sort()
-              folders.sort()
+              files.sort(key=lambda x: x[0].lower())
+              folders.sort(key=lambda x: x[0].lower())
           
               # Add files and folders to the README content
               for file in files:
