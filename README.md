@@ -1,12 +1,7 @@
 # Project Documentation
 
-## Files and Folders in Root Directory
+## Files and Folders in Root Directory (Excluding Dot Files)
 
-- **Folder**: [.git](.git)
-- **Folder**: [.github](.github)
-- **File**: [.gitignore](.gitignore)
-- **File**: [.pre-commit-config.yaml](.pre-commit-config.yaml)
-- **File**: [.pre-commit-hooks.yaml](.pre-commit-hooks.yaml)
 - **File**: [NationalParksUsaVisited.md](NationalParksUsaVisited.md)
 - **File**: [README.md](README.md)
 - **File**: [Schwild-and-Hilsig.md](Schwild-and-Hilsig.md)
