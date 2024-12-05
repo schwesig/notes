@@ -1,0 +1,56 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Generate README
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    paths:
+      - '**/*'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Generate README
+        run: |
+          python - <<EOF
+          import os
+  
+          def generate_readme(directory):
+              readme_content = "# Project Documentation\\n\\n"
+              readme_content += "## Files in This Repository\\n\\n"
+              for root, dirs, files in os.walk(directory):
+                  for file in files:
+                      file_path = os.path.relpath(os.path.join(root, file), directory)
+                      readme_content += f"- [{file}]({file_path})\\n"
+              with open(os.path.join(directory, "README.md"), "w") as readme_file:
+                  readme_file.write(readme_content)
+              print("README.md generated!")
+  
+          generate_readme(".")
+          EOF
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Auto-generate README.md"
+          git push
