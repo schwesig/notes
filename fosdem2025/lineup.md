@@ -21,3 +21,18 @@
 |      | 16:30  | 16:35  | 5 min  | Transition       |                                     |                                                                                                                                   |                         |
 | 9    | 16:35  | 16:45  | 10 min | Lightning Talk   | Nil Homedes                        | FLOSS as a Public Policy: The Case of Decidim                                                                                    |                         |
 | 10   | 16:45  | 16:50  | 5 min  | Outro            | Hosts                              | Outro                                                                                                                             |                         |
+
+
+## List of Speakers (in Order of Appearance)
+
+1. **Hosts** (Intro)
+1. **Johan Linåker**
+1. **Axel Thévenet**
+1. **Thierry Carrez, Louis Vigneras**
+1. **Leonhard Kugler**
+1. **Ludovic Dubost & Michael Meeks & Frank Karlitschek, Amandine Le Pape, Tilman Kranz & Stefan Bogner, René Fischer** (Roundtable)
+1. **Alexander Smolianitski, Virgile Deville**
+1. **Kurt Garloff, Nico Lueck**
+1. **Bianca Kastl**
+1. **Nil Homedes**
+1. **Hosts** (Outro)
