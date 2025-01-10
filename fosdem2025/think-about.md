@@ -1,7 +1,7 @@
 ## ToDo
 ### Felix
 - [ ] order table for pizza on saturday evening
-- [ ] 
+- [ ] stuehle und micros orga
 ### Thorsten
 - [ ] water still (24)
 - [ ] water medium (24)
