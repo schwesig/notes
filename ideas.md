@@ -72,7 +72,7 @@
   - **Anscheinend**: Drückt eine Vermutung aus, dass etwas wahrscheinlich so ist, wie es scheint. Es basiert auf Indizien, die darauf hindeuten, dass es der Wahrheit entspricht. Beispiel: "Anscheinend hat er das Buch gelesen" (es sieht danach aus und ist vermutlich wahr)[1][2][3].
   - **Scheinbar**: Bedeutet, dass etwas nur dem äußeren Eindruck nach so ist, aber in Wirklichkeit anders. Beispiel: "Scheinbar hat er das Buch gelesen" (es wirkt so, ist aber nicht wahr)[1][2][4]. 
   - Merksatz: **"Anscheinend" kann wahr sein; "scheinbar" täuscht nur vor.**
-
+- als vs wie, niemals als wie
 
 
 ## Doms
