@@ -6,6 +6,7 @@
 - [ ] water still (24)
 - [ ] water medium (24)
 - [ ] soda (24)
+- [ ] bluetooth speaker
 - [ ] snacks
 - [ ] goodies
 - [ ] stickers
