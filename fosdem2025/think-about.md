@@ -11,6 +11,8 @@
 - [ ] goodies
 - [ ] stickers
 - [ ] cups
+- [ ] Doppelstecker
+- [ ] Verlaengerungskabel
 ### Lea
 - [ ] 
 
