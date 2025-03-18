@@ -10,3 +10,4 @@
 - [CUEcards](https://www.mhst.net/cuecards/)
 - [Appache Airflow](https://airflow.apache.org/use-cases/business_operations/)
 - [netbox](https://github.com/netbox-community/netbox)
+- [listmonk](https://listmonk.app/)
