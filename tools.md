@@ -12,3 +12,9 @@
 - [netbox](https://github.com/netbox-community/netbox)
 - [listmonk](https://listmonk.app/)
 - [rallly](https://app.rallly.co/)
+- [blinko](https://blinko.mintlify.app/introduction)
+- https://www.usememos.com/
+- https://www.pikapods.com/
+- https://hoarder.app/
+- https://github.com/sissbruecker/linkding
+- https://readeck.org/en/
