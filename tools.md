@@ -11,3 +11,4 @@
 - [Appache Airflow](https://airflow.apache.org/use-cases/business_operations/)
 - [netbox](https://github.com/netbox-community/netbox)
 - [listmonk](https://listmonk.app/)
+- [rallly](https://app.rallly.co/)
