@@ -12,6 +12,7 @@
 - https://mechanische-tastaturen.net/prebuilt-einkaufsguide/
 - https://kcli.readthedocs.io/en/latest/
 - https://plaintextaccounting.org/
+- https://collabnix.github.io/kubetools/
 
 ## Stock Images etc
 - https://undraw.co/
