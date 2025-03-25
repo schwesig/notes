@@ -18,3 +18,4 @@
 - https://hoarder.app/
 - https://github.com/sissbruecker/linkding
 - https://readeck.org/en/
+- https://collabnix.github.io/kubetools/
