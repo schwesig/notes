@@ -23,3 +23,7 @@
 ## Projectmanagement
 - https://taiga.io/
 - https://www.openproject.org/
+
+## Coding
+### all about git
+- https://about.gitea.com/
