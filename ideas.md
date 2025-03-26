@@ -74,6 +74,7 @@
   - Merksatz: **"Anscheinend" kann wahr sein; "scheinbar" täuscht nur vor.**
 - als vs wie, niemals als wie
 - Ich liebe Optimierung und Workflows. Ich liebe Qualität. Optimierung und Workflows sind aber nur maximal notwendige, keine hinreichenden Voraussetzungen für Qualität.
+  - wahrscheinlich eher Korrelation, auf keinen Fall Kausalität
 
 
 ## Doms
