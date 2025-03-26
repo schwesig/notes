@@ -19,3 +19,7 @@
 - https://github.com/sissbruecker/linkding
 - https://readeck.org/en/
 - https://collabnix.github.io/kubetools/
+
+## Projectmanagement
+- https://taiga.io/
+- https://www.openproject.org/
