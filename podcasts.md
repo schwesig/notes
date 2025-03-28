@@ -4,7 +4,7 @@
 - https://overcast.fm/+p2mkFQCdQ
 
 ## Best of Episodes
-- !https://overcast.fm/+dnUhHHav0
+- ![](https://overcast.fm/+dnUhHHav0)
 - Sternstunden der Philosophie
   - ![Douglas Rushkoff - Mindset der Techmilliardäre](https://overcast.fm/+AAjKsW36oKk)
 
