@@ -17,17 +17,11 @@
 - https://www.pikapods.com/
 - https://hoarder.app/
 - https://github.com/sissbruecker/linkding
-
-:::conflict{variant=a}
 - https://readeck.org/en/
+- https://collabnix.github.io/kubetools/
 
 ## Backup
 - [restic](https://restic.net/)
-:::
-
-:::conflict{variant=d}
-- https://readeck.org/en/
-- https://collabnix.github.io/kubetools/
 
 ## Projectmanagement
 - https://taiga.io/
