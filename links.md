@@ -12,3 +12,29 @@
 - https://mechanische-tastaturen.net/prebuilt-einkaufsguide/
 - https://kcli.readthedocs.io/en/latest/
 - https://plaintextaccounting.org/
+- https://collabnix.github.io/kubetools/
+
+## Stock Images etc
+- https://undraw.co/
+- https://www.freepik.com/free-photos-vectors/svg
+- https://www.svgrepo.com/
+- https://fontawesome.com/icons?d=gallery&m=free
+- https://flowbite.com/icons/
+- https://flowbite.com/docs/getting-started/introduction/
+- https://ionicons.com/
+- https://github.com/ionic-team/ionicons
+- https://css.gg/
+- https://github.com/astrit/css.gg
+- https://feathericons.com/
+- https://akveo.github.io/eva-icons/
+- https://heroicons.dev/
+- https://icons.getbootstrap.com/
+- https://remixicon.com/
+- https://primer.style/octicons/
+- https://ikonate.com/
+- https://iconscout.com/unicons/explore/line
+- https://freesvg.org/
+- https://freesvgplanet.com/
+- https://www.svgheart.com/product-category/free-svg-files/
+- https://uxwing.com/
+- 

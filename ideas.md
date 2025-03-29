@@ -73,6 +73,8 @@
   - **Scheinbar**: Bedeutet, dass etwas nur dem äußeren Eindruck nach so ist, aber in Wirklichkeit anders. Beispiel: "Scheinbar hat er das Buch gelesen" (es wirkt so, ist aber nicht wahr)[1][2][4]. 
   - Merksatz: **"Anscheinend" kann wahr sein; "scheinbar" täuscht nur vor.**
 - als vs wie, niemals als wie
+- Ich liebe Optimierung und Workflows. Ich liebe Qualität. Optimierung und Workflows sind aber nur maximal notwendige, keine hinreichenden Voraussetzungen für Qualität.
+  - wahrscheinlich eher Korrelation, auf keinen Fall Kausalität
 
 
 ## Doms
