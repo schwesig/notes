@@ -22,7 +22,7 @@
 
 ## Backup
 - [restic](https://restic.net/)
-- [borg](https://www.borgbackup.org/)
+- ![borg](https://www.borgbackup.org/)
 
 ## Projectmanagement
 - https://taiga.io/
