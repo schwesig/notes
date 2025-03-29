@@ -23,6 +23,7 @@
 ## Backup
 - ![restic](https://restic.net/)
 - ![borg](https://www.borgbackup.org/)
+- ![etckeeper](https://etckeeper.branchable.com/)
 
 ## Projectmanagement
 - https://taiga.io/
