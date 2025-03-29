@@ -21,7 +21,7 @@
 - https://collabnix.github.io/kubetools/
 
 ## Backup
-- [restic](https://restic.net/)
+- ![restic](https://restic.net/)
 - ![borg](https://www.borgbackup.org/)
 
 ## Projectmanagement
