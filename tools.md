@@ -18,3 +18,6 @@
 - https://hoarder.app/
 - https://github.com/sissbruecker/linkding
 - https://readeck.org/en/
+
+## Backup
+- [restic](https://restic.net/)
