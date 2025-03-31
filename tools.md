@@ -17,6 +17,8 @@
 - https://www.pikapods.com/
 - https://hoarder.app/
 - https://github.com/sissbruecker/linkding
+
+:::conflict{variant=a}
 - https://readeck.org/en/
 - https://collabnix.github.io/kubetools/
 
@@ -27,3 +29,25 @@
 ## Coding
 ### all about git
 - https://about.gitea.com/
+:::
+
+:::conflict{variant=d}
+- https://readeck.org/en/
+- https://collabnix.github.io/kubetools/
+
+## Backup
+- ![restic](https://restic.net/)
+- ![borg](https://www.borgbackup.org/)
+- ![etckeeper](https://etckeeper.branchable.com/)
+
+## Projectmanagement
+- https://taiga.io/
+- https://www.openproject.org/
+
+## Coding
+### all about git
+- https://about.gitea.com/
+
+## Dateimanagement
+- ![](https://github.com/maharmstone/btrfs)
+:::
