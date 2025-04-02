@@ -47,3 +47,4 @@
 ## Graphics
 - PNG2SVG
   - https://vectorizer.ai/
+  - https://github.com/visioncortex/vtracer
