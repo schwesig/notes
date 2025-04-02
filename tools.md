@@ -44,3 +44,5 @@
 ## Dateimanagement
 - ![](https://github.com/maharmstone/btrfs)
 
+## Graphics
+- https://vectorizer.ai/
