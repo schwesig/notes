@@ -49,3 +49,4 @@
   - https://vectorizer.ai/
   - https://github.com/visioncortex/vtracer
   - https://svgconverter.app/free
+  - https://vectormagic.com/
