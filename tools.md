@@ -51,3 +51,5 @@
   - https://svgconverter.app/free
   - https://vectormagic.com/
   - https://www.autotracer.org/
+- SVG Icons
+  - https://www.vectorlogo.zone/
