@@ -1,37 +1,52 @@
-v1
+v2
 # Demo Story – AI Hub Build 1
-you need to run AI workloads?
+## you need to run AI workloads?
 
-you can either
+### you can either
 - lease/add your own BareMetal nodes from ESI through our UI
   - SLURM peers with ESI about 10 BM
 
-or, if you just want to lease Cluster as a server
+### or, if you just want to lease Cluster as a server
 - deploy an OpenShift cluster through our UI
   - you get the credentials and 2 links (RHOAI & OBS grafana)
   - from our clusters, but this could the the BM nodes from above in general (not yet)
 
-while we are waiting for the deployment..
+### while we are waiting for the deployment..
 we already created an OpenShift Cluster with AI support beforehand
 -  go to the console from the link above
 -  start your AI workload
 -  follow the second link from above to see the obs dashboard with your AI metrics and infrastructure metrics
 
+### after these great metrics and dashboards, let's check the readiness of our earlier created 
 
 ```mermaid
-flowchart
-  ineed1(I need resources to run AI workload)
+flowchart TD
+
+  ineed1([I need resources to run AI workload])
   doi1{do I need}
-  bm1(Bare Metal)
-  cluster1(OpenShift Cluster with AI support)
-  domyown1(Do my own deployment)
+  bm1[/Bare Metal/]
+  cluster1[/Cluster/]
+  depclus1[Deploy OpenShift Cluster with AI support]
+  domyown1[/Do my own deployment/]
+  doi2{do I want to}
+  domyown1[/Do my own deployment/]
+  getaclusterservice1[/Use a service/]
+  runai1[Run AI workloads]
+  observe1[Observe GPU & Cluster metrics]
+  teardown1[Tear Down Cluster]
+  done1([Done])
 
-  ineed1-->doi1
-  doi1-->bm1
-  bm1-->domyown1
+  ineed1==>doi1
+  doi1==>bm1
   doi1-->cluster1
-  bm1-->cluster1
-
+  bm1==>doi2
+  doi2-->domyown1
+  doi2==>getaclusterservice1
+  getaclusterservice1==>depclus1
+  cluster1---->depclus1
+  depclus1==>runai1==>observe1==>teardown1==>done1
+  observe1-->runai1
+  
 ```
 
 
