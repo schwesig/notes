@@ -19,6 +19,7 @@
 - **File**: [tv.md](tv.md)
 - **File**: [tog.md](tog.md)
 - **File**: [tools.md](tools.md)
+- **File**: [windows-commands.md](windows-commands.md)
 - **File**: [wildsammelstelle.md](wildsammelstelle.md)
 ---- 
 
@@ -26,4 +27,5 @@
 - **Folder**: [keyboards](keyboards)
 - **Folder**: [lists](lists)
 - **Folder**: [laptops](laptops)
+- **Folder**: [mainit-iab-moc](mainit-iab-moc)
 - **Folder**: [trl](trl)

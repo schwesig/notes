@@ -27,3 +27,29 @@
 ## Coding
 ### all about git
 - https://about.gitea.com/
+
+## Backup
+- ![restic](https://restic.net/)
+- ![borg](https://www.borgbackup.org/)
+- ![etckeeper](https://etckeeper.branchable.com/)
+
+## Projectmanagement
+- https://taiga.io/
+- https://www.openproject.org/
+
+## Coding
+### all about git
+- https://about.gitea.com/
+
+## Dateimanagement
+- https://github.com/maharmstone/btrfs
+
+## Graphics
+- PNG2SVG
+  - https://vectorizer.ai/
+  - https://github.com/visioncortex/vtracer
+  - https://svgconverter.app/free
+  - https://vectormagic.com/
+  - https://www.autotracer.org/
+- SVG Icons
+  - https://www.vectorlogo.zone/

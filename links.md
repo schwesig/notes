@@ -37,4 +37,8 @@
 - https://freesvgplanet.com/
 - https://www.svgheart.com/product-category/free-svg-files/
 - https://uxwing.com/
+
+## Travel
+- https://www.eff.org/wp/digital-privacy-us-border-2017
+- https://www.fragomen.com/trending/navigating-immigration-under-second-trump-administration.html
 - 
