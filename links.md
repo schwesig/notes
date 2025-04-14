@@ -41,4 +41,6 @@
 ## Travel
 - https://www.eff.org/wp/digital-privacy-us-border-2017
 - https://www.fragomen.com/trending/navigating-immigration-under-second-trump-administration.html
-- 
+
+## Data
+- https://manifesto-project.wzb.eu/
