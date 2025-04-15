@@ -44,3 +44,6 @@
 
 ## Data
 - https://manifesto-project.wzb.eu/
+
+## Your Own Data
+- ![](https://www.kuketz-blog.de/unplugtrump-mach-dich-digital-unabhaengig-von-trump-und-big-tech/)
