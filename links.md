@@ -45,5 +45,11 @@
 ## Data
 - https://manifesto-project.wzb.eu/
 
-## Your Own Data
+## Your Own Data / Sovereignty
 - ![](https://www.kuketz-blog.de/unplugtrump-mach-dich-digital-unabhaengig-von-trump-und-big-tech/)
+
+## LLM, MCP, ...
+- ![](https://github.com/modelcontextprotocol/servers)
+- ![](https://bolt.new/)
+- ![](https://google.github.io/adk-docs/)
+- ![](https://developers.googleblog.com/en/agent-development-kit-easy-to-build-multi-agent-applications/)
