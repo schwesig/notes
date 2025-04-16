@@ -59,4 +59,5 @@
   - https://github.com/aardappel/treesheets
 - https://www.tadviewer.com/
 - https://quantrix.com/products/quantrix-modeler/
-- ..
+- https://www.quadratichq.com/
+  - ![](https://www.youtube.com/watch?v=QbGeH_n5SCA)
