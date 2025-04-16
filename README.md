@@ -2,7 +2,6 @@
 
 ## Files and Folders in Root Directory (Excluding Dot Files)
 
-- **File**: [AI LLM.md](AI LLM.md)
 - **File**: [bestpractices.md](bestpractices.md)
 - **File**: [books.md](books.md)
 - **File**: [fosdem2024.md](fosdem2024.md)
