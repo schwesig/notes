@@ -53,3 +53,9 @@
   - https://www.autotracer.org/
 - SVG Icons
   - https://www.vectorlogo.zone/
+
+## Spreadsheets and DrillDown
+- https://github.com/aardappel/treesheets
+  - https://github.com/aardappel/treesheets
+- https://www.tadviewer.com/
+- https://quantrix.com/products/quantrix-modeler/
