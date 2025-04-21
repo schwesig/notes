@@ -37,4 +37,22 @@
 - https://freesvgplanet.com/
 - https://www.svgheart.com/product-category/free-svg-files/
 - https://uxwing.com/
-- 
+
+## Travel
+- https://www.eff.org/wp/digital-privacy-us-border-2017
+- https://www.fragomen.com/trending/navigating-immigration-under-second-trump-administration.html
+
+## Data
+- https://manifesto-project.wzb.eu/
+
+## Your Own Data / Sovereignty
+- ![](https://www.kuketz-blog.de/unplugtrump-mach-dich-digital-unabhaengig-von-trump-und-big-tech/)
+
+## LLM, MCP, ...
+- ![](https://github.com/modelcontextprotocol/servers)
+- ![](https://bolt.new/)
+- ![](https://google.github.io/adk-docs/)
+- ![](https://developers.googleblog.com/en/agent-development-kit-easy-to-build-multi-agent-applications/)
+
+## email
+- [Convert your email address into a short, cute and safe link you can share on the web, in Twitter, forums, Craigslist, anywhere](http://scr.im/)
