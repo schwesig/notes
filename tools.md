@@ -31,16 +31,10 @@
 
 ## Coding
 ### all about git
-
-:::conflict{variant=a}
 - https://about.gitea.com/
 
 ## Dateimanagement
 - ![](https://github.com/maharmstone/btrfs)
-:::
-
-:::conflict{variant=d}
-- https://about.gitea.com/
 
 ## Backup
 - ![restic](https://restic.net/)
@@ -75,4 +69,12 @@
 - https://quantrix.com/products/quantrix-modeler/
 - https://www.quadratichq.com/
   - ![quadratichq](https://www.youtube.com/watch?v=QbGeH_n5SCA)
-:::
+
+## KVM
+- https://symless.com/synergy
+- https://github.com/input-leap/input-leap
+- https://github.com/debauchee/barrier/
+- https://jetkvm.com/
+- https://pikvm.org/
+- https://www.logitech.com/en-us/software/features/flow.html
+- https://github.com/debauchee/barrier
