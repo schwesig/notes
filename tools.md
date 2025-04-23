@@ -78,3 +78,9 @@
 - https://pikvm.org/
 - https://www.logitech.com/en-us/software/features/flow.html
 - https://github.com/debauchee/barrier
+
+## NAS
+- https://www.openmediavault.org/
+- https://www.youtube.com/watch?v=l30sADfDiM8
+  - https://radxa.com/products/accessories/penta-sata-hat/
+- 
