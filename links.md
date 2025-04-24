@@ -57,3 +57,7 @@
 
 ## email
 - [Convert your email address into a short, cute and safe link you can share on the web, in Twitter, forums, Craigslist, anywhere](http://scr.im/)
+
+## Coding
+- python
+  - https://blog.edward-li.com/tech/advanced-python-features/
