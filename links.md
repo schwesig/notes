@@ -60,4 +60,4 @@
 
 ## Coding
 - python
-  - https://blog.edward-li.com/tech/advanced-python-features/
+  - ![# 14 Advanced Python Features](https://blog.edward-li.com/tech/advanced-python-features/)
