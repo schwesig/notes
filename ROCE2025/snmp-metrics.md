@@ -1,3 +1,11 @@
+Here are the current available MIBs we use: 
+- [https://github.com/OCP-on-NERC/snmp-config-generator/tree/main/mibs](https://github.com/OCP-on-NERC/snmp-config-generator/tree/main/mibs)
+
+Here are the (some) sources of the mibs:   
+- [https://github.com/cisco/cisco-mibs](https://github.com/cisco/cisco-mibs)
+- [https://github.com/librenms/librenms](https://github.com/librenms/librenms)
+- [https://github.com/kcsinclair/mibs.git](https://github.com/kcsinclair/mibs.git)
+---
 ## Part 1 Power, CPU, Fans, Environment
 | Metric | Explanation | Unit | Additive |
 |:---|:---|:---|:---|
@@ -44,7 +52,6 @@
 | network_switch_envMonSupplyState | Operational state of environmental supply | Status (enum) | No |
 | network_switch_envMonSupplyStatusDescr | Description of supply state | String | No |
 | network_switch_envMonSupplyStatusIndex | Index for supply state entry | Integer | No |
-
 ## Part 2 Packets, Errors, Bandwidth, Status, ...
 | Metric | Explanation | Unit | Additive |
 |:---|:---|:---|:---|
