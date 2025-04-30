@@ -1,23 +1,27 @@
 # Call 2025-04-30
 - Chris, Jonathan, Thor
 ## ToDos
-- [ ] sheet to an overview of metrics collected
-  - [ ] https://docs.google.com/spreadsheets/d/1WKQnSWOexOiUXfrgQyj4VEW8S6sGl51DZtNJTMdmZNk/edit?usp=sharing
-- [ ] how to get no data to zero? (dashboard: yes, export: ?)
-  - [ ] metric or (absent(metric) * 0)
-    - [ ] If the metric exists → use it.
-    - [ ] If it's missing → absent(...) * 0 returns 0 in its place.
-  - [ ] clamp_min(metric,0)
-    - [ ] Any negative value or null (which is skipped in Prometheus) becomes 0
-    - [ ] All other values are unchanged
-    - [ ] `network_switch_ifHCInOctets{vendor="NVIDIA",ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"} OR (absent(network_switch_ifHCInOctets{vendor="NVIDIA",ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"})*0)``clamp_min(network_switch_ifHCInOctets{vendor="NVIDIA",ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"},0)`
-- [ ] how can we get data under 10 sec?
-  - [ ] irate seems to be 10min and up (in Grafana), can be smaller in OpenShift console, it is maybe a Grafan topic?
-  - [ ] 
-- [ ] verify if it is real 5 sec data, and not just a filled/copied from last value
-- [ ] dashboard for the metrics we talked about today
-  - [ ] DCGM_FI_PROF_PCIE_TX_BYTES
-    - [ ] https://docs.nvidia.com/datacenter/dcgm/2.3/dcgm-user-guide/feature-overview.html#profiling
+- [x] sheet to an overview of metrics (about GPU and snmp) collected
+  - [x] https://docs.google.com/spreadsheets/d/1WKQnSWOexOiUXfrgQyj4VEW8S6sGl51DZtNJTMdmZNk/edit?usp=sharing
+---
+- [x] how to get no data to zero? (dashboard: yes, export: ?)
+  - [x] metric or (absent(metric) * 0)
+    - [x] If the metric exists → use it.
+    - [x] If it's missing → absent(...) * 0 returns 0 in its place.
+  - [x] clamp_min(metric,0)
+    - [x] Any negative value or null (which is skipped in Prometheus) becomes 0
+    - [x] All other values are unchanged
+    - [x] `network_switch_ifHCInOctets{vendor="NVIDIA",ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"} OR (absent(network_switch_ifHCInOctets{vendor="NVIDIA",ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"})*0)``clamp_min(network_switch_ifHCInOctets{vendor="NVIDIA",ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"},0)`
+---
+- [x] how can we get data under 10 sec?
+  - [x] irate seems to be 10min and up (in Grafana), can be smaller in OpenShift console, it is maybe a Grafan topic?
+- [x] verify if it is real 5 sec data, and not just a filled/copied from last value
+- [x] see graphica A) below
+---
+- [x] dashboard for the metrics we talked about today
+- [ ] https://grafana.apps.obs.nerc.mghpcc.org/d/dekhjru8m2fb4b/v1?from=2025-03-31T16:10:07.715Z&to=2025-04-30T16:10:07.715Z&timezone=browser
+  - [x] DCGM_FI_PROF_PCIE_TX_BYTES
+    - [x] https://docs.nvidia.com/datacenter/dcgm/2.3/dcgm-user-guide/feature-overview.html#profiling
 ```
 PCIe Bandwidth
 The rate of data transmitted / received over the PCIe bus,
@@ -31,21 +35,20 @@ regardless of the data transferred at a constant rate or in bursts.
 The theoretical maximum PCIe Gen3 bandwidth
 is 985 MB/s per lane.
 ```
-  - [ ] network_switch_ifMtu
-    - [ ] `network_switch_ifMtu{vendor="NVIDIA", ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"}`
-  - [ ] network_switch_ifHCOutOctets
-    - [ ] `network_switch_ifHCOutOctets{vendor="NVIDIA",ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"}`
-  - [ ] network_switch_ifHCInOctets
+  - [x] network_switch_ifMtu
+    - [x] `network_switch_ifMtu{vendor="NVIDIA", ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"}`
+  - [x] network_switch_ifHCOutOctets
+    - [x] `network_switch_ifHCOutOctets{vendor="NVIDIA",ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"}`
+  - [x] network_switch_ifHCInOctets
 - [ ] script and token
 - [x] are all points from jonathan's list included in the query? 32 rows
-  - [ ] `count(network_switch_ifMtu{vendor="NVIDIA", ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"}) by (ifDescr)` = 32
+  - [x] `count(network_switch_ifMtu{vendor="NVIDIA", ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"}) by (ifDescr)` = 32
   - [x] `count(network_switch_ifMtu{vendor="NVIDIA", ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"}) by (ifAlias, ifDescr)` = 32
-  - [ ] `count(network_switch_ifHCOutOctets{vendor="NVIDIA",ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"})` = 32
-  - [ ] `count(count(network_switch_ifHCOutOctets{vendor="NVIDIA",ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"}) by (ifAlias,ifDescr,ifIndex,ifName))` = 32
+  - [x] `count(network_switch_ifHCOutOctets{vendor="NVIDIA",ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"})` = 32
+  - [x] `count(count(network_switch_ifHCOutOctets{vendor="NVIDIA",ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"}) by (ifAlias,ifDescr,ifIndex,ifName))` = 32
 
-
-
-
+---
+- Graphics A)
 every 5 seconds
 ![image](.attachments/a412dc5f567ad4dc188746c193b738d79d45f11e.png) 
 ![image](.attachments/259e7a50c59f904bd8982266dfab2cee832ef213.png) 
