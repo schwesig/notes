@@ -8,7 +8,7 @@
   - [x] metric or (absent(metric) * 0)
     - [x] If the metric exists → use it.
     - [x] If it's missing → absent(...) * 0 returns 0 in its place.
-    - [ ] `network_switch_ifHCInOctets{vendor="NVIDIA",ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"} OR (absent(network_switch_ifHCInOctets{vendor="NVIDIA",ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"})*0)`
+    - [x] `network_switch_ifHCInOctets{vendor="NVIDIA",ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"} OR (absent(network_switch_ifHCInOctets{vendor="NVIDIA",ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"})*0)`
   - [x] clamp_min(metric,0)
     - [x] Any negative value or null (which is skipped in Prometheus) becomes 0
     - [x] All other values are unchanged
@@ -43,7 +43,7 @@ is 985 MB/s per lane.
     - [x] `network_switch_ifHCOutOctets{vendor="NVIDIA",ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"}`
   - [x] network_switch_ifHCInOctets
 ---
-- [ ] script and token
+- [x] script and token, see below
 ---
 - [x] are all points from jonathan's list (see Table A) included in the query? 32 rows
 - [x] yes
