@@ -106,7 +106,7 @@ is 985 MB/s per lane.
 GRAFANA_URL="https://grafana.apps.obs.nerc.mghpcc.org"
 GRAFANA_TOKEN="#ServiceAccountToken"
 PROMQL_QUERY='network_switch_ifHCOutOctets{vendor="NVIDIA"}'
-STEP="10"  # 10 Seconds
+STEP="10"  # 10 Seconds steps
 
 # last 24hours
 START=$(date -u -d '24 hours ago' +%s)
