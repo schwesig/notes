@@ -16,10 +16,11 @@
 - [x] how can we get data under 10 sec?
   - [x] irate seems to be 10min and up (in Grafana), can be smaller in OpenShift console, it is maybe a Grafan topic?
 - [x] verify if it is real 5 sec data, and not just a filled/copied from last value
-- [x] see graphica A) below
+- [x] see graphics A) below for proof
+  - [ ] still not 100% sure if prometheus or the hardware is filling missing data with the last value?
 ---
 - [x] dashboard for the metrics we talked about today
-- [ ] https://grafana.apps.obs.nerc.mghpcc.org/d/dekhjru8m2fb4b/v1?from=2025-03-31T16:10:07.715Z&to=2025-04-30T16:10:07.715Z&timezone=browser
+- [x] https://grafana.apps.obs.nerc.mghpcc.org/d/dekhjru8m2fb4b/v1?from=2025-03-31T16:10:07.715Z&to=2025-04-30T16:10:07.715Z&timezone=browser
   - [x] DCGM_FI_PROF_PCIE_TX_BYTES
     - [x] https://docs.nvidia.com/datacenter/dcgm/2.3/dcgm-user-guide/feature-overview.html#profiling
 ```
@@ -40,7 +41,9 @@ is 985 MB/s per lane.
   - [x] network_switch_ifHCOutOctets
     - [x] `network_switch_ifHCOutOctets{vendor="NVIDIA",ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"}`
   - [x] network_switch_ifHCInOctets
+---
 - [ ] script and token
+---
 - [x] are all points from jonathan's list included in the query? 32 rows
   - [x] `count(network_switch_ifMtu{vendor="NVIDIA", ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"}) by (ifDescr)` = 32
   - [x] `count(network_switch_ifMtu{vendor="NVIDIA", ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"}) by (ifAlias, ifDescr)` = 32
