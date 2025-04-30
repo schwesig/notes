@@ -121,6 +121,13 @@ RESPONSE=$(curl -s -G "${GRAFANA_URL}/api/datasources/proxy/1/api/v1/query_range
 
 echo "$RESPONSE" | jq .
 ```
+
+```
+# for a specific time frame
+START=$(date -u -d '2025-04-25 08:00:00' +%s)
+END=$(date -u -d '2025-04-25 12:00:00' +%s)
+
+```
 ---
 check for the correct proxy number (api/datasources/proxy/1/api/v1/query_range) with:
 ```
