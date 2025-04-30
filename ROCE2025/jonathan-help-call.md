@@ -4,8 +4,16 @@
 - [ ] sheet to an overview of metrics collected
   - [ ] https://docs.google.com/spreadsheets/d/1WKQnSWOexOiUXfrgQyj4VEW8S6sGl51DZtNJTMdmZNk/edit?usp=sharing
 - [ ] how to get no data to zero? (dashboard: yes, export: ?)
+  - [ ] metric or (absent(metric) * 0)
+    - [ ] If the metric exists → use it.
+    - [ ] If it's missing → absent(...) * 0 returns 0 in its place.
+  - [ ] clamp_min(metric,0)
+    - [ ] Any negative value or null (which is skipped in Prometheus) becomes 0
+    - [ ] All other values are unchanged
+    - [ ] `network_switch_ifHCInOctets{vendor="NVIDIA",ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"} OR (absent(network_switch_ifHCInOctets{vendor="NVIDIA",ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"})*0)``clamp_min(network_switch_ifHCInOctets{vendor="NVIDIA",ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"},0)`
 - [ ] how can we get data under 10 sec?
   - [ ] irate seems to be 10min and up (in Grafana), can be smaller in OpenShift console, it is maybe a Grafan topic?
+  - [ ] 
 - [ ] verify if it is real 5 sec data, and not just a filled/copied from last value
 - [ ] dashboard for the metrics we talked about today
   - [ ] DCGM_FI_PROF_PCIE_TX_BYTES
@@ -29,8 +37,53 @@ is 985 MB/s per lane.
     - [ ] `network_switch_ifHCOutOctets{vendor="NVIDIA",ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"}`
   - [ ] network_switch_ifHCInOctets
 - [ ] script and token
-- [ ] are all points from jonathan's list included in the query?
+- [x] are all points from jonathan's list included in the query? 32 rows
   - [ ] `count(network_switch_ifMtu{vendor="NVIDIA", ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"}) by (ifDescr)` = 32
   - [ ] `count(network_switch_ifMtu{vendor="NVIDIA", ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"}) by (ifAlias, ifDescr)` = 32
   - [ ] `count(network_switch_ifHCOutOctets{vendor="NVIDIA",ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"})` = 32
   - [ ] `count(count(network_switch_ifHCOutOctets{vendor="NVIDIA",ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"}) by (ifAlias,ifDescr,ifIndex,ifName))` = 32
+
+
+
+
+every 5 seconds
+![image](.attachments/a412dc5f567ad4dc188746c193b738d79d45f11e.png) 
+![image](.attachments/259e7a50c59f904bd8982266dfab2cee832ef213.png) 
+
+
+
+## Jonathan's Table
+| ID | Hostname | MAC | Port | Switch? | Switch MAC? | IP | VLAN? | VLAN ID? |
+|---|---|---|---|---|---|---|---|---|
+| 1 | MOC-R4PCC02U15 | a0:88:c2:27:c2:d0 | swp16s0 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff |  |  |  |
+| 2 | MOC-R4PCC02U15 | a0:88:c2:27:c2:d4 | swp16s1 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff | 192.168.50.119 | barcelona-net | 581 |
+| 3 | MOC-R4PCC02U15 | a0:88:c2:27:c2:d8 | swp40s0 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff |  |  |  |
+| 4 | MOC-R4PCC02U15 | a0:88:c2:27:c2:dc | swp40s1 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff |  |  |  |
+| 5 | MOC-R4PCC02U16 | a0:88:c2:27:c0:d0 | swp15s0 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff |  |  |  |
+| 6 | MOC-R4PCC02U16 | a0:88:c2:27:c0:d4 | swp15s1 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff | 192.168.50.145 | barcelona-net | 581 |
+| 7 | MOC-R4PCC02U16 | a0:88:c2:27:c0:d8 | swp39s0 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff |  |  |  |
+| 8 | MOC-R4PCC02U16 | a0:88:c2:27:c0:dc | swp39s1 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff |  |  |  |
+| 9 | MOC-R4PCC02U24 | a0:88:c2:27:be:20 | swp11s0 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff |  |  |  |
+| 10 | MOC-R4PCC02U24 | a0:88:c2:27:be:24 | swp11s1 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff | 192.168.50.157 | barcelona-net | 581 |
+| 11 | MOC-R4PCC02U24 | a0:88:c2:27:be:28 | swp35s0 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff |  |  |  |
+| 12 | MOC-R4PCC02U24 | a0:88:c2:27:be:2c | swp35s1 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff |  |  |  |
+| 13 | MOC-R4PCC02U25 | a0:88:c2:27:bb:d0 | swp10s0 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff |  |  |  |
+| 14 | MOC-R4PCC02U25 | a0:88:c2:27:bb:d4 | swp10s1 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff | 192.168.50.18 | barcelona-net | 581 |
+| 15 | MOC-R4PCC02U25 | a0:88:c2:27:bb:d8 | swp34s0 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff |  |  |  |
+| 16 | MOC-R4PCC02U25 | a0:88:c2:27:bb:dc | swp34s1 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff |  |  |  |
+| 17 | MOC-R4PCC02U29 | a0:88:c2:27:c4:80 | swp8s0 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff |  |  |  |
+| 18 | MOC-R4PCC02U29 | a0:88:c2:27:c4:84 | swp8s1 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff | 192.168.50.171 | barcelona-net | 581 |
+| 19 | MOC-R4PCC02U29 | a0:88:c2:27:c4:88 | swp32s0 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff |  |  |  |
+| 20 | MOC-R4PCC02U29 | a0:88:c2:27:c4:8c | swp32s1 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff |  |  |  |
+| 21 | MOC-R4PCC02U30 | a0:88:c2:27:c0:80 | swp7s0 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff |  |  |  |
+| 22 | MOC-R4PCC02U30 | a0:88:c2:27:c0:84 | swp7s1 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff | 192.168.50.57 | barcelona-net | 581 |
+| 23 | MOC-R4PCC02U30 | a0:88:c2:27:c0:88 | swp31s0 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff |  |  |  |
+| 24 | MOC-R4PCC02U30 | a0:88:c2:27:c0:8c | swp31s1 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff |  |  |  |
+| 25 | MOC-R4PCC02U31 | a0:88:c2:27:c4:50 | swp6s0 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff |  |  |  |
+| 26 | MOC-R4PCC02U31 | a0:88:c2:27:c4:54 | swp6s1 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff | 192.168.50.65 | barcelona-net | 581 |
+| 27 | MOC-R4PCC02U31 | a0:88:c2:27:c4:58 | swp30s0 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff |  |  |  |
+| 28 | MOC-R4PCC02U31 | a0:88:c2:27:c4:5c | swp30s1 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff |  |  |  |
+| 29 | MOC-R4PCC02U32 | a0:88:c2:27:c5:60 | swp5s0 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff |  |  |  |
+| 30 | MOC-R4PCC02U32 | a0:88:c2:27:c5:64 | swp5s1 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff | 192.168.50.153 | barcelona-net | 581 |
+| 31 | MOC-R4PCC02U32 | a0:88:c2:27:c5:68 | swp29s0 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff |  |  |  |
+| 32 | MOC-R4PCC02U32 | a0:88:c2:27:c5:6c | swp29s1 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff |  |  |  |
