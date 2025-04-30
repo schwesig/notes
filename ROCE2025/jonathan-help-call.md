@@ -45,7 +45,8 @@ is 985 MB/s per lane.
 ---
 - [ ] script and token
 ---
-- [x] are all points from jonathan's list included in the query? 32 rows
+- [x] are all points from jonathan's list (see Table A) included in the query? 32 rows
+- [x] yes
   - [x] `count(network_switch_ifMtu{vendor="NVIDIA", ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"}) by (ifDescr)` = 32
   - [x] `count(network_switch_ifMtu{vendor="NVIDIA", ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"}) by (ifAlias, ifDescr)` = 32
   - [x] `count(network_switch_ifHCOutOctets{vendor="NVIDIA",ifAlias=~"MOC-R4PCC02U15.*|MOC-R4PCC02U16.*|MOC-R4PCC02U24.*|MOC-R4PCC02U25.*|MOC-R4PCC02U29.*|MOC-R4PCC02U30.*|MOC-R4PCC02U31.*|MOC-R4PCC02U32.*"})` = 32
@@ -53,13 +54,13 @@ is 985 MB/s per lane.
 
 ---
 - Graphics A)
-every 5 seconds
+### every 5 seconds
 ![image](.attachments/a412dc5f567ad4dc188746c193b738d79d45f11e.png) 
 ![image](.attachments/259e7a50c59f904bd8982266dfab2cee832ef213.png) 
 
-
-
-## Jonathan's Table
+---
+- Table A)
+### Jonathan's Table
 | ID | Hostname | MAC | Port | Switch? | Switch MAC? | IP | VLAN? | VLAN ID? |
 |---|---|---|---|---|---|---|---|---|
 | 1 | MOC-R4PCC02U15 | a0:88:c2:27:c2:d0 | swp16s0 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff |  |  |  |
@@ -94,3 +95,34 @@ every 5 seconds
 | 30 | MOC-R4PCC02U32 | a0:88:c2:27:c5:64 | swp5s1 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff | 192.168.50.153 | barcelona-net | 581 |
 | 31 | MOC-R4PCC02U32 | a0:88:c2:27:c5:68 | swp29s0 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff |  |  |  |
 | 32 | MOC-R4PCC02U32 | a0:88:c2:27:c5:6c | swp29s1 | MOC-R4PCC02-SW-TORS | b0:cf:0e:c2:99:ff |  |  |  |
+
+---
+### script
+- create a service account with grafana
+  - Home -> Administration -> Users and access -> Service accounts
+  - create a Service Account Token (#ServiceAccountToken)
+
+```
+GRAFANA_URL="https://grafana.apps.obs.nerc.mghpcc.org"
+GRAFANA_TOKEN="#ServiceAccountToken"
+PROMQL_QUERY='network_switch_ifHCOutOctets{vendor="NVIDIA"}'
+STEP="10"  # 10 Seconds
+
+# last 24hours
+START=$(date -u -d '24 hours ago' +%s)
+END=$(date -u +%s)
+
+RESPONSE=$(curl -s -G "${GRAFANA_URL}/api/datasources/proxy/1/api/v1/query_range" \
+  -H "Authorization: Bearer ${GRAFANA_TOKEN}" \
+  --data-urlencode "query=${PROMQL_QUERY}" \
+  --data-urlencode "start=${START}" \
+  --data-urlencode "end=${END}" \
+  --data-urlencode "step=${STEP}")
+
+echo "$RESPONSE" | jq .
+```
+---
+check for the correct proxy number (api/datasources/proxy/1/api/v1/query_range) with:
+```
+curl -s -H "Authorization: Bearer #ServiceAccountToken" "https://grafana.apps.obs.nerc.mghpcc.org/api/datasources" | jq
+```
