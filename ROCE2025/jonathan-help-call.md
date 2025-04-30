@@ -102,6 +102,15 @@ is 985 MB/s per lane.
   - Home -> Administration -> Users and access -> Service accounts
   - create a Service Account Token (#ServiceAccountToken)
 
+things to adjust
+- PROMQL_QUERY='network_switch_ifHCOutOctets{vendor="NVIDIA"}'
+- STEP="10"  # 10 seconds
+- GRAFANA_TOKEN="#ServiceAccountToken"
+- START=$(date -u -d '2025-04-25 08:00:00' +%s)
+- END=$(date -u -d '2025-04-25 12:00:00' +%s)
+
+- and my recommendation, start with STEP="300" (5 minutes) when testing.
+
 ```
 GRAFANA_URL="https://grafana.apps.obs.nerc.mghpcc.org"
 GRAFANA_TOKEN="#ServiceAccountToken"
@@ -126,8 +135,41 @@ echo "$RESPONSE" | jq .
 # for a specific time frame
 START=$(date -u -d '2025-04-25 08:00:00' +%s)
 END=$(date -u -d '2025-04-25 12:00:00' +%s)
-
 ```
+
+Create a table
+```
+GRAFANA_URL="https://grafana.apps.obs.nerc.mghpcc.org"
+GRAFANA_TOKEN="#ServiceAccountToken"
+PROMQL_QUERY='network_switch_ifHCOutOctets{vendor="NVIDIA"}'
+STEP="10"  # 10 seconds
+
+# last 24 hours
+START=$(date -u -d '24 hours ago' +%s)
+END=$(date -u +%s)
+
+RESPONSE=$(curl -s -G "${GRAFANA_URL}/api/datasources/proxy/1/api/v1/query_range" \
+  -H "Authorization: Bearer ${GRAFANA_TOKEN}" \
+  --data-urlencode "query=${PROMQL_QUERY}" \
+  --data-urlencode "start=${START}" \
+  --data-urlencode "end=${END}" \
+  --data-urlencode "step=${STEP}")
+
+# Output header
+printf "%-20s %-15s %s\n" "Timestamp" "Value" "Labels"
+
+# Extract and format
+echo "$RESPONSE" | jq -r '
+  .data.result[] as $series |
+  $series.values[] as $v |
+  [$v[0], $v[1], ($series.metric | to_entries | map("\(.key)=\(.value)") | join(","))] |
+  @tsv
+' | while IFS=$'\t' read -r timestamp value labels; do
+  ts_human=$(date -u -d "@$timestamp" '+%Y-%m-%d %H:%M:%S')
+  printf "%-20s %-15s %s\n" "$ts_human" "$value" "$labels"
+done
+```
+
 ---
 check for the correct proxy number (api/datasources/proxy/1/api/v1/query_range) with:
 ```
