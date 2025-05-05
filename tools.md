@@ -27,6 +27,9 @@
 - ![restic](https://restic.net/)
 - ![borg](https://www.borgbackup.org/)
 - ![etckeeper](https://etckeeper.branchable.com/)
+- https://vorta.borgbase.com/
+- https://borgbackup.readthedocs.io/en/stable/
+- https://digital-cleaning.de/index.php/paperless-ngx-teil-21-die-1-klick-sicherung-mit-allem-drum-und-dran/
 
 ## Projectmanagement
 - https://taiga.io/
