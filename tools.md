@@ -20,6 +20,9 @@
 - https://readeck.org/en/
 - https://collabnix.github.io/kubetools/
 
+- https://digital-cleaning.de/
+- https://digital-cleaning.de/index.php/paperless-ngx-teil-21-die-1-klick-sicherung-mit-allem-drum-und-dran/
+
 ## Backup
 - ![restic](https://restic.net/)
 - ![borg](https://www.borgbackup.org/)
@@ -92,3 +95,9 @@
 - [Twingate](https://www.twingate.com/)
 - [Tailscale](https://tailscale.com/)
 - [Cloudflare Tunnel]()
+
+## Calendar & Addressbook
+- ![Radicale](https://radicale.org/v3.html)
+- ![Baikal](https://sabre.io/baikal/)
+  - https://github.com/JsBergbau/BaikalAnleitung?tab=readme-ov-file
+  - 
