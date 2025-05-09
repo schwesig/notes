@@ -106,4 +106,8 @@
 
 ## Invoicing
 - ![Open Source Invoicing Application](https://invoiceshelf.com/)
-- 
+- ![# Simple and elegant invoicing solution.](https://solidinvoice.co/)
+
+## ERP - ledger - bookkeeping
+- ![LedgerSMB - The foundation for your business](https://ledgersmb.org/content/download)
+- ![](https://github.com/ProcessMaker/pm4core-docker)
