@@ -112,3 +112,7 @@
 - ![LedgerSMB - The foundation for your business](https://ledgersmb.org/content/download)
 - ![](https://github.com/ProcessMaker/pm4core-docker)
 - ![](https://www.dolibarr.org/)
+
+## Awesome Lists
+- https://github.com/mikeroyal/Self-Hosting-Guide
+- https://github.com/awesome-selfhosted/awesome-selfhosted
