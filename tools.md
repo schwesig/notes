@@ -103,4 +103,7 @@
 - ![Radicale](https://radicale.org/v3.html)
 - ![Baikal](https://sabre.io/baikal/)
   - https://github.com/JsBergbau/BaikalAnleitung?tab=readme-ov-file
-  - 
+
+## Invoicing
+- ![Open Source Invoicing Application](https://invoiceshelf.com/)
+- 
