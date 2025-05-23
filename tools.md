@@ -20,10 +20,16 @@
 - https://readeck.org/en/
 - https://collabnix.github.io/kubetools/
 
+- https://digital-cleaning.de/
+- https://digital-cleaning.de/index.php/paperless-ngx-teil-21-die-1-klick-sicherung-mit-allem-drum-und-dran/
+
 ## Backup
 - ![restic](https://restic.net/)
 - ![borg](https://www.borgbackup.org/)
 - ![etckeeper](https://etckeeper.branchable.com/)
+- https://vorta.borgbase.com/
+- https://borgbackup.readthedocs.io/en/stable/
+- https://digital-cleaning.de/index.php/paperless-ngx-teil-21-die-1-klick-sicherung-mit-allem-drum-und-dran/
 
 ## Projectmanagement
 - https://taiga.io/
@@ -78,3 +84,35 @@
 - https://pikvm.org/
 - https://www.logitech.com/en-us/software/features/flow.html
 - https://github.com/debauchee/barrier
+
+## NAS
+- https://www.openmediavault.org/
+- https://www.youtube.com/watch?v=l30sADfDiM8
+  - https://radxa.com/products/accessories/penta-sata-hat/
+
+## Build your own Cloud
+- ![](https://www.youtube.com/watch?v=ewarxugZH3Q)
+- [Nextcloud](https://nextcloud.com/)
+- [OpenCloud](https://opencloud.eu/en)
+- [Caddy](https://caddyserver.com/docs/quick-starts/reverse-proxy)
+- [Twingate](https://www.twingate.com/)
+- [Tailscale](https://tailscale.com/)
+- [Cloudflare Tunnel]()
+
+## Calendar & Addressbook
+- ![Radicale](https://radicale.org/v3.html)
+- ![Baikal](https://sabre.io/baikal/)
+  - https://github.com/JsBergbau/BaikalAnleitung?tab=readme-ov-file
+
+## Invoicing
+- ![Open Source Invoicing Application](https://invoiceshelf.com/)
+- ![# Simple and elegant invoicing solution.](https://solidinvoice.co/)
+
+## ERP - ledger - bookkeeping
+- ![LedgerSMB - The foundation for your business](https://ledgersmb.org/content/download)
+- ![](https://github.com/ProcessMaker/pm4core-docker)
+- ![](https://www.dolibarr.org/)
+
+## Awesome Lists
+- https://github.com/mikeroyal/Self-Hosting-Guide
+- https://github.com/awesome-selfhosted/awesome-selfhosted
