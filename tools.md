@@ -116,3 +116,6 @@
 ## Awesome Lists
 - https://github.com/mikeroyal/Self-Hosting-Guide
 - https://github.com/awesome-selfhosted/awesome-selfhosted
+
+## Games
+- ![https://github.com/mtkennerly/ludusavi](https://github.com/mtkennerly/ludusavi)
