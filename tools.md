@@ -126,3 +126,6 @@
 
 ## Kubernetes and OpenShift
 - ![https://keptn.sh/stable/](https://keptn.sh/stable/)
+
+## OS
+- ![https://elementary.io/](https://elementary.io/)
