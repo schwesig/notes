@@ -62,3 +62,5 @@
 ## Coding
 - python
   - ![# 14 Advanced Python Features](https://blog.edward-li.com/tech/advanced-python-features/)
+
+- ![https://lobste.rs/](https://lobste.rs/)
