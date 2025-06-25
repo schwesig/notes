@@ -130,3 +130,6 @@
 
 ## OS
 - ![https://elementary.io/](https://elementary.io/)
+
+## Job
+- https://github.com/AmruthPillai/Reactive-Resume?tab=readme-ov-file
