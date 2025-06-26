@@ -1,6 +1,6 @@
 # Rückfragen im Bewerbungsgespräch
 - Was unterscheidet bei Ihnen gute von exzellenten Mitarbeitern?
-- Wie de nieren Sie Erfolg für diese Position?
+- Wie definieren Sie Erfolg für diese Position?
 - Was erwarten Sie von dem idealen Kandidaten?
 - Was zeichnet Ihre besten Mitarbeiter aus?
 - Was könnte mich an diesem Job am meisten frustrieren?
@@ -73,7 +73,7 @@
 - Wie standen die Mitarbeiter zu dem Vorgänger auf der Position?
 - Wie würden Sie den Führungsstil des Vorgängers beschreiben?
 - Sollte der beibehalten oder verändert werden, falls ja: wie?
-- Gibt es Kon ikte oder Widerstände im Team?
+- Gibt es Konflikte oder Widerstände im Team?
 - Wurden in den vergangenen zwölf Monaten Veränderungen durchgeführt?
 - Wie wurden diese angenommen und umgesetzt?
 - Wie offen sind die Mitarbeiter für Veränderungen?
