@@ -1,3 +1,26 @@
+#### meins
+-   Wie sieht ein typischer Arbeitstag bei Ihnen aus?
+  -   Was wären meine ersten Aufgaben an einem durchschnittlichen Tag?
+    
+-   Wie viele (Std) Meetings habe ich im Schnitt pro Woche?
+    
+-   Wie viele Tage erwarten Sie Präsenz im Büro?
+  -   Und wie stellen Sie sicher, dass auch andere Teammitglieder regelmäßig vor Ort sind?
+    
+-   Was müsste ich morgen tun, damit Sie am Abend zufrieden mit meinem Tag sind?
+  -   Und was müsste passieren, damit Sie es nicht wären?
+    
+-   Was unterstützt Ihrer Meinung nach…
+    -   … Sie als Führungskraft?
+    -   … das Team?
+    -   … das Unternehmen insgesamt?
+        
+-   **Wie gestalten Sie Ihre 1-on-1s?** Wie häufig finden sie statt, und wie werden sie dokumentiert?
+    
+-   **Wie sehen Ziele bzw. OKRs aus**, wenn man sie auf einen Zeitraum von einer Woche, einem Monat, einem Quartal, einem halben Jahr und einem Jahr betrachtet?
+    
+-   **Welche Ziele und Aktivitäten sind relevant für eine Beförderung?** Was ist hilfreich, was eher hinderlich? Gibt es konkrete Erwartungen wie z. B. Mentoring, Ownership oder Teambeiträge?
+
 # Rückfragen im Bewerbungsgespräch
 - Was unterscheidet bei Ihnen gute von exzellenten Mitarbeitern?
 - Wie definieren Sie Erfolg für diese Position?
