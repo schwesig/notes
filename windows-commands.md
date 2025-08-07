@@ -5,3 +5,5 @@
 `DISM.exe /Online /Cleanup-image /Restorehealth`
 
 `sfc /scannow`
+
+Shift+F10 - oobe\bypassnro
