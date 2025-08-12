@@ -133,3 +133,70 @@
 
 ## Job
 - ![https://github.com/AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume)
+
+
+## Self-Hosting & Server-Management
+
+### CasaOS
+- **Webseite:** [https://casaos.zimaspace.com/](https://casaos.zimaspace.com/)
+- **GitHub:** [https://github.com/IceWhaleTech/CasaOS](https://github.com/IceWhaleTech/CasaOS)
+- **Beschreibung:** Community-based open source software focused on delivering a simple personal cloud experience around the Docker ecosystem.
+
+### Cosmos
+- **Webseite:** [https://cosmos-cloud.io/](https://cosmos-cloud.io/)
+- **GitHub:** [https://github.com/azukaar/Cosmos-Server](https://github.com/azukaar/Cosmos-Server)
+- **Beschreibung:** Secure and easy way to self-host a home server, acting as both a secure gateway and server manager, designed to protect vulnerable self-hosted applications and personal servers.
+
+### Unraid
+- **Webseite:** [https://unraid.net/product](https://unraid.net/product)
+- **GitHub:** *(kein offizielles Repository gefunden)*
+- **Beschreibung:** Operating system for network-attached storage that allows mixing and matching drives, securely storing and sharing data, and managing VMs and Docker apps via a powerful web interface.
+
+### YunoHost
+- **Webseite:** [https://yunohost.org/](https://yunohost.org/)
+- **GitHub:** [https://github.com/YunoHost/yunohost](https://github.com/YunoHost/yunohost)
+- **Beschreibung:** Operating system aiming to simplify the administration of a server as much as possible.
+
+### Cloudron
+- **Webseite:** [https://www.cloudron.io/](https://www.cloudron.io/)
+- **GitHub:** [https://github.com/cloudron-io](https://github.com/cloudron-io) – Organisation mit zahlreichen Repositories :contentReference[oaicite:1]{index=1}
+- **Beschreibung:** Complete solution for running apps on your server with easy self-hosting management.
+
+---
+
+## Dokumenten- & Wissensmanagement
+
+### EPrints
+- **Webseite:** [https://www.eprints.org/](https://www.eprints.org/)
+- **GitHub:** [https://github.com/eprints/eprints3.4](https://github.com/eprints/eprints3.4)
+- **Beschreibung:** Document management system for higher education institutions and individuals, used for Open Access publishing, educational resource sharing, and portfolio creation.
+
+---
+
+## Billing, Invoicing & Client Management
+
+### FOSSBilling
+- **Webseite:** [https://fossbilling.org/](https://fossbilling.org/)
+- **GitHub:** [https://github.com/FOSSBilling/FOSSBilling](https://github.com/FOSSBilling/FOSSBilling)
+- **Beschreibung:** Free open-source billing and client management solution to automate invoicing, payments, and communication for online service businesses.
+
+### Kill Bill
+- **Webseite:** *(nicht angegeben)*
+- **GitHub:** [https://github.com/killbill](https://github.com/killbill)
+- **Beschreibung:** Leading open-source platform for billing and payments since 2010.
+
+### Invoice Ninja
+- **Webseite:** [https://www.invoiceninja.org/](https://www.invoiceninja.org/)
+- **GitHub:** [https://github.com/invoiceninja/invoiceninja](https://github.com/invoiceninja/invoiceninja) – bietet auch Self-Host-Optionen :contentReference[oaicite:2]{index=2}
+- **Beschreibung:** Open-source (source-available) platform for invoicing, expense tracking, time tracking, and client payments, available in self-hosted or cloud versions.
+
+### Lago
+- **Webseite:** [https://www.getlago.com/](https://www.getlago.com/)
+- **GitHub:** [https://github.com/getlago/lago](https://github.com/getlago/lago)
+- **Beschreibung:** Open-source metering and usage-based billing platform for SaaS and API products.
+
+### Crater
+- **Webseite:** [https://crater.financial/#features](https://crater.financial/#features)
+- **GitHub:** [https://github.com/crater-invoice-inc/crater](https://github.com/crater-invoice-inc/crater) – weiteres zur mobilen App unter GitHub :contentReference[oaicite:3]{index=3}
+- **Beschreibung:** Free and open-source invoicing application for freelancers and small businesses, offering invoicing, payments, and expense tracking.
+
