@@ -1,4 +1,5 @@
 https://openbenchmarking.org/suite/pts/workstation
+https://github.com/phoronix-test-suite/phoronix-test-suite
 
 # 🔧 Linux Benchmark Guide mit Phoronix Test Suite
 
