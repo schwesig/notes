@@ -1,3 +1,5 @@
+https://openbenchmarking.org/suite/pts/workstation
+
 # 🔧 Linux Benchmark Guide mit Phoronix Test Suite
 
 Dieses Dokument beschreibt, wie du CPU, RAM, Disk und GPU Benchmarks mit
