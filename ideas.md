@@ -76,6 +76,21 @@
 - Ich liebe Optimierung und Workflows. Ich liebe Qualität. Optimierung und Workflows sind aber nur maximal notwendige, keine hinreichenden Voraussetzungen für Qualität.
   - wahrscheinlich eher Korrelation, auf keinen Fall Kausalität
 
+### Macht es Sinn, mit jemandem zu diskutieren?  
+Für mich hängt es von drei Faktoren ab:
+
+1. Nähe – Wie eng ist die Beziehung/Freundschaft?  
+2. Thema – Wie hoch ist die inhaltliche Übereinstimmung?  
+3. Energie – Wie viel Kraft habe ich gerade?  
+
+- Nähe sorgt dafür, dass man sich zuhört – auch bei Meinungsverschiedenheiten.  
+- Übereinstimmung senkt Konfliktpotenzial.  
+- Energie kann fehlende Nähe oder Übereinstimmung ausgleichen.  
+
+**Beispiel Worst Case:**  
+Unbekannte Person + gegensätzliche Ansichten + null Energie = Diskussion lohnt kaum.  
+
+---
 
 ## Doms
 - KommentaThor
