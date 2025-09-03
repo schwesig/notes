@@ -1,7 +1,8 @@
 Diese Nachricht an Scammer*innen könnt ihr euch speichern:
 
 ```bash
-Hi there. I understand that this is a scam.
+Hi there.
+I understand that this is a scam.
 
 Please stop contacting me.
 If you’re in danger yourself and can safely access the internet,
