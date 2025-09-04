@@ -104,6 +104,9 @@
 - ![Radicale](https://radicale.org/v3.html)
 - ![Baikal](https://sabre.io/baikal/)
   - https://github.com/JsBergbau/BaikalAnleitung?tab=readme-ov-file
+  - https://github.com/Ujjalzaman/Doctor-Appointment
+  - https://github.com/adamspd/django-appointment
+  - https://github.com/alextselegidis/easyappointments
 
 ## Invoicing
 - ![Open Source Invoicing Application](https://invoiceshelf.com/)
