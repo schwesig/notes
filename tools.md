@@ -176,6 +176,13 @@
 
 ---
 
+## PDF & Tables
+- https://github.com/Stirling-Tools/Stirling-PDF
+- https://tabula.technology/
+  -  https://github.com/tabulapdf/tabula
+
+---
+
 ## Billing, Invoicing & Client Management
 
 ### FOSSBilling
