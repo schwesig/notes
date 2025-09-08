@@ -68,6 +68,8 @@
   - https://www.autotracer.org/
 - SVG Icons
   - https://www.vectorlogo.zone/
+- Farewell e-cards
+  - https://www.grouptogether.com/us
 
 ## Spreadsheets and DrillDown
 - https://github.com/aardappel/treesheets
