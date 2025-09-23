@@ -67,3 +67,7 @@
 
 ## News
 - ![https://lobste.rs/](https://lobste.rs/)
+
+## Observability
+- https://prometheus.io/docs/prometheus/latest/querying/functions/
+- https://last9.io/blog/promql-tricks-you-should-know/
