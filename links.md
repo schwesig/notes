@@ -13,6 +13,7 @@
 - https://kcli.readthedocs.io/en/latest/
 - https://plaintextaccounting.org/
 - https://collabnix.github.io/kubetools/
+- ![](https://github.com/cloudflare/vibesdk)
 
 ## Stock Images etc
 - https://undraw.co/
