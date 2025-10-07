@@ -23,3 +23,10 @@ die Ruhe die Du brauchst
 und die Gesundheit
 die Dich beides genießen lässt.
 ```
+
+# 3D Print
+- https://youtube.com/shorts/sYLe6jUbm6w?si=bjl7EVMqK5zD6TKF
+  - https://than.gs/m/1380955 - # Phone Vault
+  - https://than.gs/m/1311470 - # Trellis Storage System
+  - https://than.gs/m/1228163 - # Spill Proof Coffee Carrier
+  - https://than.gs/m/1052791 - # Auto Locking Guitar Holder
