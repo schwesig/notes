@@ -217,3 +217,16 @@
 ## Address Verification
 - https://www.openplzapi.org/de/
 
+---
+
+## Windows on Linux
+- https://www.winboat.app/
+- https://github.com/winapps-org/winapps
+- https://github.com/dockur/windows
+
+---
+
+## Games
+- https://kazeta.org/
+- https://cataclysmdda.org/
+- 
