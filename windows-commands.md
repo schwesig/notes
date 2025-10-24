@@ -2,8 +2,31 @@
 
 `C:\Windows\System32\shutdown.exe -s -t 0`
 
-`DISM.exe /Online /Cleanup-image /Restorehealth`
+## Systembereinigung
+```bash
+sfc /scannow
+```
+```bash
+DISM.exe /Online /Cleanup-Image /RestoreHealth
+```
 
-`sfc /scannow`
+## Win Install w/o Online
+Shift+F10
+```bash
+oobe\bypassnro
+```
 
-Shift+F10 - oobe\bypassnro
+## Temporaere Dateien Loeschen
+```bash
+cleanmgr /sageset:1
+```
+```bash
+cleanmgr /sagerun:1
+```
+### manuell
+```bash
+C:\$WINDOWS.~BT
+```
+```bash
+C:\$WINDOWS.~WS
+```
