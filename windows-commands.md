@@ -10,12 +10,6 @@ sfc /scannow
 DISM.exe /Online /Cleanup-Image /RestoreHealth
 ```
 
-## Win Install w/o Online
-Shift+F10
-```bash
-oobe\bypassnro
-```
-
 ## Temporaere Dateien Loeschen
 ```bash
 cleanmgr /sageset:1
@@ -29,4 +23,10 @@ C:\$WINDOWS.~BT
 ```
 ```bash
 C:\$WINDOWS.~WS
+```
+
+## Win Install w/o Online
+Shift+F10
+```bash
+oobe\bypassnro
 ```
