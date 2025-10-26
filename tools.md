@@ -94,7 +94,7 @@
   - https://radxa.com/products/accessories/penta-sata-hat/
 
 ## Build your own Cloud
-- ![](https://www.youtube.com/watch?v=ewarxugZH3Q)
+- ![BYOC](https://www.youtube.com/watch?v=ewarxugZH3Q)
 - [Nextcloud](https://nextcloud.com/)
 - [OpenCloud](https://opencloud.eu/en)
 - [Caddy](https://caddyserver.com/docs/quick-starts/reverse-proxy)
