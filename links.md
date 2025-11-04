@@ -57,6 +57,7 @@
 - ![](https://openrouter.ai/)
 - ![](https://glama.ai/mcp/servers)
 - ![](https://github.com/ruvnet/claude-flow)
+- ![](https://www.geoffreylitt.com/2025/10/24/code-like-a-surgeon)
 
 ## email
 - [Convert your email address into a short, cute and safe link you can share on the web, in Twitter, forums, Craigslist, anywhere](http://scr.im/)
