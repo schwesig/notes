@@ -75,3 +75,10 @@
 ## Observability
 - https://prometheus.io/docs/prometheus/latest/querying/functions/
 - https://last9.io/blog/promql-tricks-you-should-know/
+
+## Windows Backup, RE und co
+- https://www.heise.de/ratgeber/Warum-Windows-Werksinstallationen-wertvoller-sind-als-gedacht-10439259.html?seite=2
+- https://www.heise.de/ratgeber/c-t-Notfall-Windows-2025-Das-eigene-Notfallsystem-bauen-10222546.html
+- https://www.heise.de/hintergrund/c-t-WIMage-3863074.html
+- https://www.heise.de/ratgeber/Windows-Wiederherstellungsumgebung-RE-reparieren-9807147.html
+- https://www.heise.de/ratgeber/Rettungs-Windows-Windows-RE-und-die-Recovery-Partition-6169722.html
