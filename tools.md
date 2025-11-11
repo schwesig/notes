@@ -70,6 +70,7 @@
   - https://www.vectorlogo.zone/
 - Farewell e-cards
   - https://www.grouptogether.com/us
+  - https://infinipaint.com/
 
 ## Spreadsheets and DrillDown
 - https://github.com/aardappel/treesheets
