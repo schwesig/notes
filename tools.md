@@ -231,4 +231,8 @@
 ## Games
 - https://kazeta.org/
 - https://cataclysmdda.org/
-- 
+
+---
+
+## Note Taking / Knowledge Management
+- https://triliumnotes.org/
