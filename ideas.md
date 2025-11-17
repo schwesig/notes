@@ -90,6 +90,11 @@ Für mich hängt es von drei Faktoren ab:
 **Beispiel Worst Case:**  
 Unbekannte Person + gegensätzliche Ansichten + null Energie = Diskussion lohnt kaum.  
 
+
+### Paradox
+ - Bostontrip: Bahnfahrt: nicht vor Leiter, aber gerne vor Feuerloescher
+ - ESA App: please use App, but not working for collecting old stays
+
 ---
 
 ## Doms
