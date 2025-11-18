@@ -1,7 +1,7 @@
 # Quotes
 
 ## own
-- Was ist, wenn Anstand die formalisierte Version von Empathie ist?
+- Was wäre, wenn Anstand nichts anderes wäre als die formalisierte Form von Empathie?
   - es ist schneller gelernt, Danke zu sagen, als zu verstehen, ob es jemandem hilft/Beziehungen verbessert. 
 
 ## borrowed
