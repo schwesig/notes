@@ -2,6 +2,7 @@
 
 ## own
 - Was wäre, wenn Anstand nichts anderes wäre als die formalisierte Form von Empathie?
+  - “What if decency were nothing more than the formalized version of empathy?”
   - es ist schneller gelernt, Danke zu sagen, als zu verstehen, ob es jemandem hilft/Beziehungen verbessert. 
 
 ## borrowed
