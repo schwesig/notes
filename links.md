@@ -83,3 +83,8 @@
 - https://www.heise.de/ratgeber/Windows-Wiederherstellungsumgebung-RE-reparieren-9807147.html
 - https://www.heise.de/ratgeber/Rettungs-Windows-Windows-RE-und-die-Recovery-Partition-6169722.html
 - https://www.heise.de/hintergrund/Wie-man-das-Passwort-eines-Windows-Kontos-knackt-10688318.html?upscorebox=o&wt_mc=intern.red.plus.plus_upscorebox.beitrag_plus.teaser_up.teaser_up&utm_source=upscore&utm_campaign=article_page_premium
+
+## TV & Quizzes
+- https://blippo.plus/
+- https://github.com/schwesig/iptv
+- https://github.com/iptv-org/iptv
