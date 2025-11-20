@@ -59,7 +59,7 @@
 - ![](https://github.com/ruvnet/claude-flow)
 - ![](https://www.geoffreylitt.com/2025/10/24/code-like-a-surgeon)
 - ![](https://blog.sshh.io/p/how-i-use-every-claude-code-feature)
-- https://jeffser.com/alpaca/
+- ![](https://jeffser.com/alpaca/)
 
 ## email
 - [Convert your email address into a short, cute and safe link you can share on the web, in Twitter, forums, Craigslist, anywhere](http://scr.im/)
