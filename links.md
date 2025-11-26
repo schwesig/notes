@@ -91,4 +91,4 @@
 - https://github.com/iptv-org/iptv
 
 ## 3D Printing
-- ![](https://than.gs/u/1005909)
+- https://than.gs/u/1005909
