@@ -101,8 +101,10 @@
 - [Caddy](https://caddyserver.com/docs/quick-starts/reverse-proxy)
 - [Twingate](https://www.twingate.com/)
 - [Tailscale](https://tailscale.com/)
-- [Cloudflare Tunnel]()
+- Cloudflare Tunnel
 - https://unraid.net/
+- https://filebrowser.org/
+- https://github.com/9001/copyparty
 
 ## Calendar & Addressbook
 - ![Radicale](https://radicale.org/v3.html)
