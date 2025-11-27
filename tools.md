@@ -244,3 +244,8 @@
 ## Voice2Text
 - https://www.assemblyai.com/
 - https://www.rev.ai/
+
+---
+
+## Terminals, CLI
+- https://www.gh-dash.dev/
