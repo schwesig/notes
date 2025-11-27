@@ -238,3 +238,9 @@
 
 ## Note Taking / Knowledge Management
 - https://triliumnotes.org/
+
+---
+
+## Voice2Text
+- https://www.assemblyai.com/
+- https://www.rev.ai/
