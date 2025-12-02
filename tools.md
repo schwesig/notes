@@ -241,9 +241,12 @@
 
 ---
 
-## Voice2Text
+## Voice2Text / OCR
 - https://www.assemblyai.com/
 - https://www.rev.ai/
+- https://mathpix.com/
+  - Enterprise-grade document conversion API with unmatched accuracy and flexibility.
+- 
 
 ---
 
