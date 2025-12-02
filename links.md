@@ -103,4 +103,9 @@
   - https://www.gratis-hoerspiele.de/paartherapeut-klaus-kranitz-bei-trennung-geld-zurueck-1-staffel/
   - https://www.dra.de/de/
     - https://www.ardmediathek.de/retrospezialddr
-    - 
+
+ ---
+
+ ## OS
+ - https://www.youtube.com/watch?v=mfv0V1SxbNA
+   - Building the PERFECT Linux PC with Linus Torvalds
