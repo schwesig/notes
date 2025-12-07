@@ -246,7 +246,14 @@
 - https://www.rev.ai/
 - https://mathpix.com/
   - Enterprise-grade document conversion API with unmatched accuracy and flexibility.
-- 
+
+---
+
+## NirSoft
+- https://www.nirsoft.net/
+-  https://www.nirsoft.net/utils/product_cd_key_viewer.html
+-  https://www.nirsoft.net/utils/product_key_scanner.html
+-  https://www.nirsoft.net/utils/nirext.html
 
 ---
 
