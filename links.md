@@ -109,3 +109,11 @@
  ## OS
  - https://www.youtube.com/watch?v=mfv0V1SxbNA
    - Building the PERFECT Linux PC with Linus Torvalds
+
+---
+
+  ## APIs
+  - https://allorigins.win/
+    -  free and open source javascript AnyOrigin alternative, inspired by Whatever Origin, but with gzipped pages support.
+  -  https://whateverorigin.org/
+    -  The original open source CORS Proxy, bypassing Same-Origin Policy since 2011.
