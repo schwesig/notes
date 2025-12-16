@@ -48,6 +48,8 @@
 
 ## Your Own Data / Sovereignty
 - ![](https://www.kuketz-blog.de/unplugtrump-mach-dich-digital-unabhaengig-von-trump-und-big-tech/)
+- ![](https://framatoolbox.org/abc/en/)
+- ![](https://degooglisons-internet.org/en/)
 
 ## LLM, MCP, ...
 - ![](https://github.com/modelcontextprotocol/servers)
