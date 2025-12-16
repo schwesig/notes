@@ -25,6 +25,16 @@ Seen this way, decency is a kind of shortcut:
 Instead of deeply understanding empathy, one learns the rules that were derived from it.  
 They work — even where empathy is absent.
 
+### Was sich leise nicht lösen lässt, wird laut erst recht keine Lösung finden.
+- Was Ruhe nicht löst, löst Lärm nicht.
+- Wenn eine Sache keine Antwort in der Ruhe findet, wird sie im Lärm nur weiter verloren gehen.
+- Lautstärke ersetzt keine Klarheit.
+#### English
+- What cannot be solved quietly will not be solved by being loud.
+- What calm cannot solve, noise never will.
+- If a problem finds no answer in stillness, it will only get lost in noise.
+- Noise is no substitute for clarity.
+
 ## borrowed
 - Wenn die welt sich nach rechts verschiebt, wirken dieselben Linken linker.
   - [Warum die Woken von allen gehasst werden](https://youtu.be/9oAGaHs8OMo)
