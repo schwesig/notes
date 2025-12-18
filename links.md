@@ -62,6 +62,7 @@
 - ![](https://www.geoffreylitt.com/2025/10/24/code-like-a-surgeon)
 - ![](https://blog.sshh.io/p/how-i-use-every-claude-code-feature)
 - ![](https://jeffser.com/alpaca/)
+- ![](https://acecloud.ai/blog/best-nano-banana-pro-prompts/)
 
 ## email
 - [Convert your email address into a short, cute and safe link you can share on the web, in Twitter, forums, Craigslist, anywhere](http://scr.im/)
