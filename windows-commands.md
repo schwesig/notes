@@ -11,6 +11,10 @@ C:\Windows\System32\shutdown.exe -s -t 0
 sfc /scannow
 ```
 ```bash
+DISM.exe /Online /Cleanup-Image /StartComponentCleanup
+```
+
+```bash
 DISM.exe /Online /Cleanup-Image /RestoreHealth
 ```
 
@@ -23,10 +27,38 @@ cleanmgr /sagerun:1
 ```
 ### manuell
 ```bash
-C:\$WINDOWS.~BT
+net stop wuauserv
+net stop bits
+net stop cryptsvc
 ```
+
 ```bash
+ren C:\Windows\SoftwareDistribution SoftwareDistribution.old
+ren C:\Windows\System32\catroot2 catroot2.old
+```
+
+```bash
+C:\$WINDOWS.~BT
 C:\$WINDOWS.~WS
+```
+
+```bash
+DE
+takeown /F C:\$WINDOWS.~BT /R /D J
+takeown /F C:\$WINDOWS.~WS /R /D J
+
+EN
+takeown /F C:\$WINDOWS.~BT /R /D Y
+takeown /F C:\$WINDOWS.~WS /R /D Y
+
+rmdir /S /Q C:\$WINDOWS.~BT
+rmdir /S /Q C:\$WINDOWS.~WS
+```
+
+```bash
+net start cryptsvc
+net start bits
+net start wuauserv
 ```
 
 ## Win Install w/o Online
