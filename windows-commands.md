@@ -66,3 +66,10 @@ Shift+F10
 ```bash
 oobe\bypassnro
 ```
+
+## Manuelle schrittweise Win10/11 Updates
+- https://www.google.com/search?q=Win10_20H2_English_x64.iso&rlz=1C1GCEA_enDE1131DE1132&sourceid=chrome&ie=UTF-8
+- https://github.com/awesome-windows11/windows11
+- https://github.com/awesome-windows11/windows11/tree/main/iso
+- https://github.com/AveYo/MediaCreationTool.bat
+- https://uupdump.net/download.php?id=bdfc98d8-d2f5-4b1c-b75c-bb37c15ccbb6&pack=de-de&edition=core%3Bprofessional
