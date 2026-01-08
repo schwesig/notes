@@ -51,6 +51,7 @@
 - ![](https://framatoolbox.org/abc/en/)
 - [pdf frama](https://framapdf.org/abc/en/)
 - ![](https://degooglisons-internet.org/en/)
+- https://european-alternatives.eu/
 
 ## LLM, MCP, ...
 - ![](https://github.com/modelcontextprotocol/servers)
