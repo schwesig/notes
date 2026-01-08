@@ -1,0 +1,74 @@
+{
+  "inventory": {
+    "category": "computer_keyboards",
+    "owner": "Thorsten",
+    "last_updated": "2026-01-08",
+    "keyboards": [
+      {
+        "manufacturer": "Keychron",
+        "model": "Q5 HE",
+        "type": "mechanical",
+        "layout": "ISO-DE",
+        "size": "96%",
+        "switches": "Gateron Double-Rail Magnetic",
+        "connection": "wired",
+        "features": [
+          "hall effect",
+          "hot-swap",
+          "aluminum case"
+        ],
+        "status": "active"
+      },
+      {
+        "manufacturer": "Keychron",
+        "model": "Q6 HE",
+        "type": "mechanical",
+        "layout": "ISO-DE",
+        "size": "100%",
+        "switches": "Gateron Double-Rail Magnetic",
+        "connection": "wired",
+        "features": [
+          "hall effect",
+          "hot-swap",
+          "aluminum case"
+        ],
+        "status": "active"
+      },
+      {
+        "manufacturer": "Apple",
+        "model": "Magic Keyboard",
+        "type": "non-mechanical",
+        "layout": "ISO-DE",
+        "size": "full-size",
+        "switches": null,
+        "connection": "bluetooth",
+        "features": [
+          "low profile",
+          "macOS compatible",
+          "iPad compatible"
+        ],
+        "status": "rarely_used"
+      }
+    ],
+    "accessories": {
+      "keycaps": [
+        {
+          "type": "PBT",
+          "layout": "ISO-DE",
+          "notes": "multiple sets"
+        }
+      ],
+      "switches": [
+        {
+          "model": "Gateron Double-Rail Magnetic",
+          "purpose": "spare"
+        }
+      ],
+      "tools": [
+        "keycap puller",
+        "switch puller"
+      ]
+    },
+    "notes": "HE keyboards mainly used for development, terminal work, and writing."
+  }
+}
