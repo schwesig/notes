@@ -65,6 +65,7 @@
 - ![](https://blog.sshh.io/p/how-i-use-every-claude-code-feature)
 - ![](https://jeffser.com/alpaca/)
 - ![](https://acecloud.ai/blog/best-nano-banana-pro-prompts/)
+- ![](https://hannahstulberg.substack.com/p/claude-code-for-everything-finally?utm_source=substack)
 
 ## email
 - [Convert your email address into a short, cute and safe link you can share on the web, in Twitter, forums, Craigslist, anywhere](http://scr.im/)
