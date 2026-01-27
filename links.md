@@ -64,6 +64,7 @@
 - ![](https://blog.sshh.io/p/how-i-use-every-claude-code-feature)
 - ![](https://jeffser.com/alpaca/)
 - ![](https://acecloud.ai/blog/best-nano-banana-pro-prompts/)
+- https://clawd.bot/
 
 ## email
 - [Convert your email address into a short, cute and safe link you can share on the web, in Twitter, forums, Craigslist, anywhere](http://scr.im/)
