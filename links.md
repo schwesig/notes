@@ -130,3 +130,9 @@
     -  free and open source javascript AnyOrigin alternative, inspired by Whatever Origin, but with gzipped pages support.
   -  https://whateverorigin.org/
     -  The original open source CORS Proxy, bypassing Same-Origin Policy since 2011.
+
+---
+
+## ROMs, Retro, Games
+- https://romm.app/ - Your beautiful, powerful,
+self-hosted rom manager
