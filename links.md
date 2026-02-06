@@ -134,5 +134,4 @@
 ---
 
 ## ROMs, Retro, Games
-- https://romm.app/ - Your beautiful, powerful,
-self-hosted rom manager
+- https://romm.app/ - Your beautiful, powerful, self-hosted rom manager
