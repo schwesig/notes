@@ -260,3 +260,8 @@
 ## Terminals, CLI
 - https://www.gh-dash.dev/
   - A rich terminal UI for GitHub that doesn't break your flow
+ 
+---
+
+## Observability
+- https://kiali.io/
