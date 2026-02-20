@@ -105,6 +105,9 @@
 - https://unraid.net/
 - https://filebrowser.org/
 - https://github.com/9001/copyparty
+- https://github.com/stashapp/stash
+  - https://stashapp.cc/
+-  
 
 ## Calendar & Addressbook
 - ![Radicale](https://radicale.org/v3.html)
