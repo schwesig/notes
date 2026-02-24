@@ -37,6 +37,7 @@ They work — even where empathy is absent.
 
 ### Erwachsene sind nur Kinder mit Geld/Macht
 - Alle sind unsicher, einige verstecken es nur besser
+- ?
 
 ### Der Sinn des Lebens ist das, was Dich von anderen unterscheidet
 - Bsp: Wenn der Mensch Gefühle hat, das Tier nicht, dann sind Gefühle der Sinn.
