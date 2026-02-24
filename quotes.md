@@ -35,6 +35,14 @@ They work — even where empathy is absent.
 - If a problem finds no answer in stillness, it will only get lost in noise.
 - Noise is no substitute for clarity.
 
+### Erwachsene sind nur Kinder mit Geld/Macht
+- Alle sind unsicher, einige verstecken es nur besser
+
+### Der Sinn des Lebens ist das, was Dich von anderen unterscheidet
+- Bsp: Wenn der Mensch Gefühle hat, das Tier nicht, dann sind Gefühle der Sinn.
+
+### Männer teilen mit Frauen Essen das Ihnen schmeckt. Frauen teilen, was sie nicht mögen.
+
 ## borrowed
 - Wenn die welt sich nach rechts verschiebt, wirken dieselben Linken linker.
   - [Warum die Woken von allen gehasst werden](https://youtu.be/9oAGaHs8OMo)
