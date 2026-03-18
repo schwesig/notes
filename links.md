@@ -52,6 +52,7 @@
 - [pdf frama](https://framapdf.org/abc/en/)
 - ![](https://degooglisons-internet.org/en/)
 - https://european-alternatives.eu/
+- ![](https://tailscale.com/pricing)
 
 ## LLM, MCP, ...
 - ![](https://github.com/modelcontextprotocol/servers)
