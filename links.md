@@ -53,6 +53,7 @@
 - ![](https://degooglisons-internet.org/en/)
 - https://european-alternatives.eu/
 - ![](https://tailscale.com/pricing)
+- https://www.privacyguides.org/
 
 ## LLM, MCP, ...
 - ![](https://github.com/modelcontextprotocol/servers)
