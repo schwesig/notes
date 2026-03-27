@@ -277,3 +277,8 @@
 - https://www.hyhyve.com/de/
 - https://www.ivicos.eu/alternative-zu/ivcampus-vs-gather-town
 - https://workadventu.re/gather-alternative
+- https://topia.io/
+- https://www.sowork.com/
+- https://github.com/with-labs/popspace
+- https://github.com/trevorwrightdev/gather-clone?tab=readme-ov-file
+- https://www.teamazing.de/gather-town-alternativen/
