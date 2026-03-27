@@ -268,3 +268,12 @@
 
 ## Observability
 - https://kiali.io/
+
+---
+
+## Virtual Meeting
+- https://vdo.ninja/
+- https://www.gather.town/
+- https://www.hyhyve.com/de/
+- https://www.ivicos.eu/alternative-zu/ivcampus-vs-gather-town
+- https://workadventu.re/gather-alternative
