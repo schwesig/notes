@@ -14,6 +14,7 @@
 - https://plaintextaccounting.org/
 - https://collabnix.github.io/kubetools/
 - ![](https://github.com/cloudflare/vibesdk)
+- https://sketchplanations.substack.com/
 
 ## Stock Images etc
 - https://undraw.co/
