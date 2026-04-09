@@ -10,3 +10,16 @@ flowchart TD
     D -->|Ja| T[AI ist ein Werkzeug]
     D -->|Nein| V
 ```
+
+```mermaid
+flowchart TD
+    A[Using AI] --> B{Do I know what I'm doing?}
+    B -->|Yes| C{Do I know what I expect?}
+    B -->|No| V[Vibe Coding]
+
+    C -->|Yes| D{Can I verify the result?}
+    C -->|No| V
+
+    D -->|Yes| T[AI is a tool]
+    D -->|No| V
+```
