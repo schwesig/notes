@@ -21,6 +21,8 @@ Persönliche Notizen zu Größen und Einkäufen bei **Joe Merino**.
 
 
 # Kulturbeutel
+cm 19 x 20 x 11
+hoch x breit x tief
 
 
 # Laptop
