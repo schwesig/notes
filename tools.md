@@ -22,6 +22,8 @@
 
 - https://digital-cleaning.de/
 - https://digital-cleaning.de/index.php/paperless-ngx-teil-21-die-1-klick-sicherung-mit-allem-drum-und-dran/
+- https://github.com/ejoffe/spr
+  - Each commit becomes a pull request. Stop juggling branches. git spr manages stacked pull requests on GitHub so you don't have to. Write commits on a single branch, and spr turns each one into its own pull request -- kept in sync, correctly ordered, and ready to merge.
 
 ## Backup
 - ![restic](https://restic.net/)
