@@ -67,6 +67,17 @@ Shift+F10
 oobe\bypassnro
 ```
 
+or
+```bash
+reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\OOBE /v BypassNRO /t REG_DWORD /d 1 /f
+shutdown /r /t 0
+```
+
+or
+```bash
+start ms-cxh:localonly
+```
+
 ## Manuelle schrittweise Win10/11 Updates
 - https://www.google.com/search?q=Win10_20H2_English_x64.iso&rlz=1C1GCEA_enDE1131DE1132&sourceid=chrome&ie=UTF-8
 - https://github.com/awesome-windows11/windows11
