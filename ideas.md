@@ -104,6 +104,8 @@ Unbekannte Person + gegensätzliche Ansichten + null Energie = Diskussion lohnt 
 - ThorTorial
 - MotivaThor
 - ToDoDo
+ThorAndMore
+Thorsten24
 
 ## Unsorted Grabbed
 - MiPa - Mittagspause
