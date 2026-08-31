@@ -1,1 +1,4 @@
 - The Sandlot (1993)
+- [Die Schüler der Madame Anne (2024)](https://de.wikipedia.org/wiki/Die_Sch%C3%BCler_der_Madame_Anne)
+- [Der Gesang der Flusskrebse (2022)](https://de.wikipedia.org/wiki/Der_Gesang_der_Flusskrebse_(Film))
+- [Ruby (1992)](https://en.wikipedia.org/wiki/Ruby_(1992_film))
