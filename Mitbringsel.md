@@ -16,3 +16,5 @@
 
 - Lakritz
 - Marzipan
+- Mon Cherie
+- Lütticher Waffeln
