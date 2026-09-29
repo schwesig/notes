@@ -84,3 +84,19 @@ start ms-cxh:localonly
 - https://github.com/awesome-windows11/windows11/tree/main/iso
 - https://github.com/AveYo/MediaCreationTool.bat
 - https://uupdump.net/download.php?id=bdfc98d8-d2f5-4b1c-b75c-bb37c15ccbb6&pack=de-de&edition=core%3Bprofessional
+
+## Activate
+- https://github.com/massgravel/microsoft-activation-scripts
+1. Click the Start Menu, type PowerShell, and open it.
+2. Copy and paste the code below and press Enter.
+
+For Windows 8.1, 10 and 11:
+```bash
+irm https://get.activated.win | iex
+```
+If the above is blocked (by ISP/DNS), try this (needs updated Windows 10 or 11):
+```bash
+iex (curl.exe -s --doh-url https://1.1.1.1/dns-query https://get.activated.win | Out-String)
+```
+
+3. In the menu that appears, type the number corresponding to one of the Green options.
