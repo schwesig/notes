@@ -100,3 +100,9 @@ iex (curl.exe -s --doh-url https://1.1.1.1/dns-query https://get.activated.win |
 ```
 
 3. In the menu that appears, type the number corresponding to one of the Green options.
+
+## Windows Update Falle
+- https://www.heise.de/select/ct/2025/5/2502011510659511876
+- https://www.heise.de/select/ct/2025/5/2500716443278609757
+- https://www.heise.de/select/ct/2025/5/softlinks/y7vh?wt_mc=pred.red.ct.ct052025.060.softlink.softlink
+  - ct.de/y7vh
