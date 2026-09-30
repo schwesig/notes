@@ -106,3 +106,40 @@ iex (curl.exe -s --doh-url https://1.1.1.1/dns-query https://get.activated.win |
 - https://www.heise.de/select/ct/2025/5/2500716443278609757
 - https://www.heise.de/select/ct/2025/5/softlinks/y7vh?wt_mc=pred.red.ct.ct052025.060.softlink.softlink
   - ct.de/y7vh
+
+<details>
+<summary>Wege aus der Upgrade-Falle für Windows 11</summary>
+
+Zusammenfassung der Schritte aus c't 5/2025, S. 60–63 ("Raus hier!", Axel Vahldiek).
+
+## Vorab (kostenlos prüfen)
+
+- *TPM* im BIOS aktivieren, falls es nur deaktiviert ist.
+- *CSM/Legacy auf UEFI* umstellen, falls möglich. Achtung: Partitionierung und Bootloader müssen mit angepasst werden (Anleitung: c't 14/2019).
+
+## c't-Registry-Trick
+
+1. *Prüfen*: winver zeigt die laufende Version. Die CPU muss SSE4.2 können (Intel Core-i ab 2008, AMD ab Bulldozer 2011).
+2. *Backup* anlegen, zum Beispiel mit c't-WIMage (ct.de/wimage).
+3. Über **ct.de/y7vh** zwei Dateien laden: die c't-REG-Datei und das Media Creation Tool (MCT). Das MCT nicht per Google suchen, es gibt mehrere Versionen.
+4. *REG-Datei* per Doppelklick importieren und die Nachfrage bestätigen. Sie setzt zwei Einträge:
+   - HKLM\SYSTEM\Setup\MoSetup → AllowUpgradesWithUnsupportedTPMOrCPU (DWORD)
+   - HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\HwReqChk → HwReqChkVars (Multi-SZ)
+5. mediacreationtool.exe starten, die Lizenz akzeptieren und die vorausgewählte Sprache/Edition mit "Weiter" übernehmen. Dann *"ISO-Datei"* wählen und einen Speicherort mit etwa 5 GB freiem Platz angeben. Am Ende auf "Fertig stellen" klicken.
+6. Die ISO im Explorer doppelklicken, sie wird als virtuelles Laufwerk eingebunden. Dort *Setup.exe* starten.
+7. Mit "Weiter" startet die Update-Suche. Das Fenster verschwindet dabei eventuell hinter dem Explorer. Lizenz akzeptieren.
+8. Den Hinweis "Stellen Sie sicher, dass genügend freier Speicherplatz …" ignorieren, solange sich der Kreis dreht. Benötigt werden maximal 20 GB.
+9. Bei "Worum Sie sich kümmern sollten" (CPU nicht unterstützt) auf *"Aktualisieren"* klicken.
+10. Bei "Bereit für die Installation" muss *"Persönliche Dateien und Apps behalten"* angehakt sein, sonst droht Datenverlust.
+11. Auf "Installieren" klicken. Der PC startet mehrmals neu.
+12. Bei den Datenschutzfragen jeweils die untere Antwort wählen und mit "Annehmen" bestätigen.
+13. Zum Schluss mit winver prüfen, ob 24H2 läuft.
+
+## Wichtig
+
+- Der Trick hilft nur bei *Upgrades*, nicht bei Neuinstallationen.
+- Windows aktualisiert sich danach *weiterhin nicht selbst*. Bei jedem Versionswechsel muss das Upgrade von Hand wiederholt werden.
+- Microsoft könnte den Trick jederzeit per Update blockieren.
+- *Stand 30.09.2026: 24H2 Home/Pro bekommt nur bis zum **13.10.2026* Updates. Der Wechsel auf 25H2 oder neuer steht an. Ob der Trick dafür noch funktioniert, sagt der Artikel nicht.
+- Dauerhafte Lösung laut c't: Wechsel auf Linux oder macOS.
+</details>
