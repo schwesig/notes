@@ -143,3 +143,14 @@ Zusammenfassung der Schritte aus c't 5/2025, S. 60–63 ("Raus hier!", Axel Vahl
 - *Stand 30.09.2026: 24H2 Home/Pro bekommt nur bis zum **13.10.2026* Updates. Der Wechsel auf 25H2 oder neuer steht an. Ob der Trick dafür noch funktioniert, sagt der Artikel nicht.
 - Dauerhafte Lösung laut c't: Wechsel auf Linux oder macOS.
 </details>
+
+## Win 11 Neuinstallation
+Shift + F10
+regedit
+HKEY_LOCAL_MACHINE\SYSTEM\Setup\LabConfig
+BypassTPMCheck = 1
+BypassSecureBootCheck = 1
+
+ISO von Microsoft → Rufus → „Remove requirement for 4GB+ RAM, Secure Boot and TPM 2.0“ → USB booten → Clean Install
+https://www.microsoft.com/de-de/software-download/windows11
+https://rufus.ie/de
