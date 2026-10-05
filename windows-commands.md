@@ -145,12 +145,23 @@ Zusammenfassung der Schritte aus c't 5/2025, S. 60–63 ("Raus hier!", Axel Vahl
 </details>
 
 ## Win 11 Neuinstallation
+```bash
 Shift + F10
+```
+```bash
 regedit
+```
+```bash
 HKEY_LOCAL_MACHINE\SYSTEM\Setup\LabConfig
 BypassTPMCheck = 1
 BypassSecureBootCheck = 1
+```
 
-ISO von Microsoft → Rufus → „Remove requirement for 4GB+ RAM, Secure Boot and TPM 2.0“ → USB booten → Clean Install
-https://www.microsoft.com/de-de/software-download/windows11
-https://rufus.ie/de
+oder
+
+ISO von Microsoft - [https://www.microsoft.com/de-de/software-download/windows11](https://www.microsoft.com/de-de/software-download/windows11)
+- → Rufus - [https://rufus.ie/de](https://rufus.ie/de)
+- → „Remove requirement for 4GB+ RAM, Secure Boot and TPM 2.0“
+- → USB booten
+- → Clean Install
+
