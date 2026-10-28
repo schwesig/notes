@@ -57,6 +57,7 @@
 - https://european-alternatives.eu/
 - ![](https://tailscale.com/pricing)
 - https://www.privacyguides.org/
+- https://freedombox.org/
 
 ## LLM, MCP, ...
 - ![](https://github.com/modelcontextprotocol/servers)
