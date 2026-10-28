@@ -136,3 +136,6 @@
 
 ## ROMs, Retro, Games
 - https://romm.app/ - Your beautiful, powerful, self-hosted rom manager
+
+## Digital Signage
+- https://anthias.screenly.io/
