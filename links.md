@@ -149,3 +149,4 @@
 - https://strimr.app/
 - https://firecore.com/infuse
   - https://apps.apple.com/de/app/infuse/id1136220934
+- https://plasma-bigscreen.org/
