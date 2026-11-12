@@ -137,5 +137,15 @@
 ## ROMs, Retro, Games
 - https://romm.app/ - Your beautiful, powerful, self-hosted rom manager
 
+---
+
 ## Digital Signage
 - https://anthias.screenly.io/
+
+---
+
+## Video & Streaming
+- https://player.native-it.com/
+- https://strimr.app/
+- https://firecore.com/infuse
+  - https://apps.apple.com/de/app/infuse/id1136220934
