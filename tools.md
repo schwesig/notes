@@ -284,3 +284,11 @@
 - https://github.com/with-labs/popspace
 - https://github.com/trevorwrightdev/gather-clone?tab=readme-ov-file
 - https://www.teamazing.de/gather-town-alternativen/
+
+---
+
+## Keyboard/Macros
+- https://github.com/kriomant/ch57x-keyboard-tool
+- https://github.com/rodoramco/6keys-1knob_Keyboard_Config
+- https://manuals.plus/m/860795480d93989bf8cfad376c70bebfcf0172d39bb6accb17e9b0b3f27d604f_optim.pdf
+  - https://drive.google.com/file/d/1k3Ees_tiSThPaRT059_yOJrZMBprVJfB/view?usp=sharing
